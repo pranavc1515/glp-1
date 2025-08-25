@@ -14,19 +14,19 @@ export default function Features() {
               <div className="cstack gap-1 py-1 px-2 border rounded-pill">
                 <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" />
                 <span className="fs-8 fw-bold text-uppercase">
-                  Main features
+                  Medical Excellence
                 </span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2">
                 No{" "}
                 <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                  coding skills
+                  medical experience
                 </span>{" "}
                 required.
               </h2>
               <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70">
-                Unleash your creativity with our builder's powerful features and
-                intuitive interface, experience the difference.
+                Transform your health with our comprehensive GLP-1 weight loss program,
+                guided by medical experts every step of the way.
               </p>
             </div>
             <div className="row child-cols-12 lg:child-cols-5 col-match g-2">
@@ -40,11 +40,11 @@ export default function Features() {
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0">
-                      Intuitive interface Drag-and-Drop for building pages by
-                      dragging and dropping elements.
+                      Comprehensive medical platform designed for safe, effective weight loss
+                      with personalized GLP-1 treatment plans.
                     </p>
                     <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
-                      <span>Try it now</span>
+                      <span>Start your journey</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>
@@ -86,17 +86,17 @@ export default function Features() {
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
                     <div className="content vstack items-start gap-2">
-                      <h4 className="h4 m-0">Dashboard Components</h4>
+                      <h4 className="h4 m-0">Patient Portal</h4>
                       <p className="fs-6 lg:fs-5 dark:text-white">
-                        Unlock your productivity potential with our intuitive
-                        and powerful Dashboard UI Components.
+                        Monitor your progress with our comprehensive patient dashboard
+                        featuring weight tracking, medication schedules, and health metrics.
                       </p>
                     </div>
                     <a
                       href="#"
                       className="btn btn-sm btn-secondary text-primary px-2 mt-2"
                     >
-                      <span>Let's find out</span>
+                      <span>Explore features</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>
@@ -129,18 +129,18 @@ export default function Features() {
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
                     <div className="content vstack items-start gap-2">
-                      <h4 className="h4 m-0">UI Components</h4>
+                      <h4 className="h4 m-0">Medical Support</h4>
                       <p className="fs-6 lg:fs-5 dark:text-white">
-                        Easy-to-use and powerful page builder, your gateway to
-                        intuitive tools and expansive customization options that
-                        transform how you build websites.
+                        Access comprehensive medical support with telemedicine consultations,
+                        personalized treatment plans, and continuous monitoring by certified
+                        endocrinologists and weight management specialists.
                       </p>
                     </div>
                     <a
                       href="#"
                       className="btn btn-sm btn-secondary text-primary px-2 mt-2"
                     >
-                      <span>Let's find out</span>
+                      <span>Book consultation</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>
@@ -155,10 +155,10 @@ export default function Features() {
                     className="panel vstack items-center gap-2 p-3 lg:p-4 xl:p-6"
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
-                    <h4 className="h4 m-0">Drag-and-Drop Interface</h4>
+                    <h4 className="h4 m-0">Personalized Treatment</h4>
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center">
-                      Unleash your creativity with our builder's intuitive UI
-                      Components, experience the difference.
+                      Experience personalized GLP-1 weight loss treatment tailored
+                      to your unique health profile and weight loss goals.
                     </p>
                   </div>
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">

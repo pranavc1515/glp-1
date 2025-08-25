@@ -42,26 +42,26 @@ export const accordionItems = [
 export const accordionItems2 = [
   {
     id: 23,
-    title: "Manage tasks",
+    title: "Clinical Trial Results",
     icon: "/assets/images/common/icons/zap.svg",
     content:
-      "Offers a unified platform that fosters innovation while providing end-to-end data management.",
+      "Participants in our 72-week clinical trial lost 5 times more weight compared to diet and exercise alone, with sustained results throughout the study period.",
     isOpen: false,
   },
   {
     id: 25,
-    title: "Set priorities",
+    title: "Study Methodology",
     icon: "/assets/images/common/icons/target.svg",
     content:
-      "Providing end-to-end data management. See how we help your team solve today’s biggest challenges.",
+      "The 2022 randomized controlled trial included 2,539 adults comparing GLP-1 treatment with placebo over 72 weeks, following rigorous clinical protocols.",
     isOpen: false,
   },
   {
     id: 27,
-    title: "Collaborate with your team",
+    title: "Proven Safety Profile",
     icon: "/assets/images/common/icons/settings.svg",
     content:
-      "Our shared team inboxes keep everyone on the same page and in the loop.",
+      "Our treatment has been extensively studied for safety and efficacy, with comprehensive monitoring and medical supervision throughout the weight loss journey.",
     isOpen: true,
   },
 ];

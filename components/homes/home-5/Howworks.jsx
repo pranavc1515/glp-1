@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Accordion2 from "@/components/common/Accordion2";
+import WeightLossCalculator from "@/components/common/WeightLossCalculator";
 
 export default function Howworks() {
   return (
@@ -32,12 +33,11 @@ export default function Howworks() {
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         <h3 className="h3 lg:h2 m-0">
-                          End-to-End Data Shared Management
+                          Proven Clinical Results
                         </h3>
                         <p className="fs-6 lg:fs-5">
-                          Whether you have a team of 2 or 200, our shared team
-                          inboxes keep everyone on the same page and in the
-                          loop.
+                          Clinical trials show that with our approach, you lose 5 times more weight than with diet & exercise alone. 
+                          The result of a clinical trial published in 2022 with 2,539 adults with our treatment and a placebo over 72 weeks.
                         </p>
                         <div className="panel w-100 mt-2 lg:mt-4">
                           <ul
@@ -79,13 +79,13 @@ export default function Howworks() {
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         <h3 className="h3 lg:h2 m-0">
-                          Unlock your Productivity Potential Now or Never
+                          Scientifically Backed Weight Loss
                         </h3>
                         <p className="fs-6 lg:fs-5">
-                          Unlock your productivity potential with our intuitive
-                          and powerful to-do app. Manage tasks, set priorities,
-                          collaborate with your team, and track progress
-                          effortlessly.
+                          Our GLP-1 treatment is backed by extensive clinical research 
+                          demonstrating significant weight loss results. Experience proven 
+                          medical weight management with continuous monitoring and support 
+                          from certified healthcare professionals.
                         </p>
                         <div className="panel mt-2 lg:mt-4">
                           <div className="row child-cols-12 lg:child-cols-6 g-4">
@@ -103,11 +103,11 @@ export default function Howworks() {
                                 </div>
                                 <div className="vstack gap-1 lg:gap-2">
                                   <h5 className="h5 lg:h4 m-0">
-                                    Use Data &amp; AI responsibly
+                                    Clinical Data Analysis
                                   </h5>
                                   <p className="fs-6">
-                                    Offers a unified platform that fosters
-                                    innovation.
+                                    Comprehensive analysis of patient data shows 
+                                    sustained weight loss results.
                                   </p>
                                 </div>
                               </div>
@@ -129,8 +129,8 @@ export default function Howworks() {
                                     Track progress effortlessly
                                   </h5>
                                   <p className="fs-6">
-                                    Providing end-to-end data management today’s
-                                    challenges.
+                                    Monitor your weight loss journey with detailed 
+                                    progress tracking and health metrics.
                                   </p>
                                 </div>
                               </div>
@@ -143,6 +143,13 @@ export default function Howworks() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        
+        {/* Weight Loss Calculator Section */}
+        <div>
+          <div className="panel my-6 lg:my-8">
+            <WeightLossCalculator />
           </div>
         </div>
       </div>
