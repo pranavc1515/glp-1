@@ -4,11 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 const categories = [
-  "Marketing Automation",
-  "Scheduling",
-  "Project Management",
-  "Finance",
-  "Spreadsheets",
+  "Medical Consultation",
+  "Weight Management",
+  "Lifestyle Coaching",
+  "Progress Tracking",
+  "Treatment Plans",
 ];
 export default function Features() {
   const [activeCategory, setActiveCategory] = useState(categories[0]);
@@ -35,22 +35,22 @@ export default function Features() {
                 className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                Integrations
+                Medical Services
               </span>
               <h2
                 className="h3 lg:h2 m-0"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
                 <span className="px-1 bg-tertiary text-primary">
-                  AI Automation
+                  Comprehensive Care
                 </span>{" "}
-                across 500+ apps
+                for sustainable weight loss
               </h2>
               <p
                 className="fs-6 xl:fs-3 xl:px-8"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                See how we help your team solve today’s biggest challenges.
+                Discover how our medical experts help you achieve lasting weight loss results.
               </p>
             </div>
             <div
@@ -114,7 +114,7 @@ export default function Features() {
                                 href="#"
                                 className="uc-link border-bottom fw-bold dark:text-tertiary"
                               >
-                                <span>Get started</span>
+                                <span>Learn more</span>
                                 <i className="icon-narrow unicon-arrow-right fw-bold" />
                               </a>
                             </div>
@@ -134,7 +134,7 @@ export default function Features() {
                 className="btn btn-md xl:btn-lg btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary-300 px-3 lg:px-5 fw-bold"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                Browse all integrations
+                View all services
               </Link>
             </div>
           </div>

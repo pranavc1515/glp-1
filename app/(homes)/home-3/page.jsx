@@ -12,9 +12,9 @@ import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Home 3 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Professional Weight Loss Treatment | GLP-1 Injections | Lexend Health",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Professional medical weight loss with GLP-1 injections. Personalized treatment plans, lifestyle coaching, and ongoing medical support for sustainable results.",
 };
 export default function HomePage3() {
   return (

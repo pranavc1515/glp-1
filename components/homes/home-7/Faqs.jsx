@@ -16,7 +16,7 @@ export default function Faqs({ ctaParentClass = "section-outer panel" }) {
               <div>
                 <div className="vstack items-center text-center gap-2">
                   <h2 className="h4 sm:h3 xl:h2 m-0">
-                    Frequently asked questions!
+                    Common questions about GLP-1 weight loss!
                   </h2>
                 </div>
               </div>
@@ -35,10 +35,10 @@ export default function Faqs({ ctaParentClass = "section-outer panel" }) {
                 <div className="panel vstack items-center justify-between gap-2 text-center rounded-2 p-3 lg:py-8 bg-primary text-white uc-dark">
                   <div className="panel">
                     <div className="vstack items-center gap-2">
-                      <h2 className="h6 lg:h5 m-0">Still have questions?</h2>
+                      <h2 className="h6 lg:h5 m-0">Need medical guidance?</h2>
                       <p className="lg:fs-5 text-dark dark:text-white text-opacity-70">
-                        Can’t find the answer you’re looking for? <br />
-                        Please chat to our friendly team.
+                        Have questions about GLP-1 treatment? <br />
+                        Speak with our medical experts.
                       </p>
                       <div className="hstack justify-center gap-0">
                         <Image
@@ -62,7 +62,7 @@ export default function Faqs({ ctaParentClass = "section-outer panel" }) {
                     href={`/page-contact`}
                     className="btn btn-md btn-primary text-tertiary dark:bg-tertiary dark:text-primary fw-bold rounded-pill px-3 lg:px-5 mt-1 lg:mt-2"
                   >
-                    Get in touch
+                    Book consultation
                   </Link>
                 </div>
               </div>

@@ -1,35 +1,35 @@
 export const services = [
-  "Service-based Business",
-  "Marketing Automation",
-  "Project Management Software",
-  "Cloud-Based Solutions",
-  "Start-ups",
-  "Developers",
+  "GLP-1 Weight Loss Injections",
+  "Medical Consultations",
+  "Metabolic Assessment",
+  "Lifestyle Coaching",
+  "Progress Monitoring",
+  "Nutritional Guidance",
 ];
 
 export const featuresMenu = [
   {
     href: "/page-features",
     iconClass: "unicon-checkmark",
-    title: "To-Do List",
-    description: "Managing multiple software and tools for different tasks.",
+    title: "Medical Consultation",
+    description: "Personalized consultations with endocrinology specialists.",
   },
   {
     href: "/page-features",
     iconClass: "unicon-chart-pie",
-    title: "Reports",
-    description: "The latest industry reports, updates and info.",
+    title: "Progress Tracking",
+    description: "Monitor your weight loss journey with detailed analytics.",
   },
   {
     href: "/page-features",
     iconClass: "unicon-increase-level",
-    title: "Spreadsheets",
-    description: "Suite of tools that cover all aspects of your business.",
+    title: "GLP-1 Treatment",
+    description: "Safe and effective weight loss injections with medical supervision.",
   },
   {
     href: "/page-features",
     iconClass: "unicon-chart-venn-diagram",
-    title: "Collaboration",
-    description: "Assign tasks, share files, and communicate with your team.",
+    title: "Lifestyle Support",
+    description: "Comprehensive coaching for sustainable weight management.",
   },
 ];

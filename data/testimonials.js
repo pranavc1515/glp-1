@@ -1,33 +1,20 @@
 export const testimonials = [
   {
-    quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on
-      building out programs to help our employees. 
-      Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Quas nisi consectetur adipisci eaque. Porro,
-      atque.”`,
-    name: "Mark Zellers",
-    position: "Director of Human Resources.",
+    quote: `"I lost 31 kg in 8 months with the GLP-1 program. The medical support was incredible - my endocrinologist guided me every step of the way. I feel more energetic and confident than I have in years. This program changed my life."`,
+    name: "Priya Sharma",
+    position: "Marketing Manager, 32",
     imgSrc: "/assets/images/portrait/01.jpg",
   },
   {
-    quote: `“I can create a custom proposal with dynamic pricing
-      tables, and get approval from my boss all within 36
-      minutes and looks fantastic.
-      Dolor sit amet consectetur adipisicing elit. Quas
-      nisi consectetur adipisci eaque. Porro, atque.”`,
-    name: "André Garcia",
-    position: "Client Success Manager",
+    quote: `"Going from 127 kg to 96 kg felt impossible until I found this program. The GLP-1 injections reduced my cravings completely, and the lifestyle coaching helped me build sustainable habits. I'm now maintaining my weight loss successfully."`,
+    name: "Surya Mehta",
+    position: "Software Engineer, 28",
     imgSrc: "/assets/images/portrait/02.jpg",
   },
   {
-    quote: `“This powerful tool eliminates the need to leave
-      Salesforce to get things done, 
-      quas libero placeat voluptates sed sequi? Corporis,
-      earum vitae. 
-      Tempore pariatur dignissimos coming for great tool
-      of repellat quae a eaque culpa iusto fugit.”`,
-    name: "Matt Henderson",
-    position: "Director of Sales Operations",
+    quote: `"The personalized approach made all the difference. My doctor understood my PCOS challenges and created a treatment plan that worked. I've lost 24 kg and my fertility has improved significantly. Highly recommend this program."`,
+    name: "Riya Parulekar",
+    position: "Gynecologist, 35",
     imgSrc: "/assets/images/portrait/03.jpg",
   },
 ];
@@ -35,30 +22,30 @@ export const slidesData = [
   {
     rating: 5,
     quote:
-      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Mark Zellers",
-    title: "CEO, Co-Founder.",
+      "I never thought I could lose this much weight safely. The GLP-1 program with medical supervision gave me confidence. Lost 28 kg in 10 months and my diabetes is now under control.",
+    name: "Rahul Gupta",
+    title: "Business Owner, 45",
   },
   {
     rating: 5,
     quote:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Natalia Larsson",
-    title: "Director of Sales",
+      "The combination of GLP-1 injections and lifestyle coaching was perfect. I lost 22 kg and learned sustainable habits. My endocrinologist was available whenever I had questions or concerns.",
+    name: "Twinkle Gupta",
+    title: "Consultant, 38",
   },
   {
     rating: 5,
     quote:
-      "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!",
-    name: "Sarah Edrissi",
-    title: "Lead Marketing",
+      "As a healthcare professional myself, I was impressed by the thorough medical approach. The team monitored my progress closely and adjusted treatment as needed. Lost 18 kg with no major side effects.",
+    name: "Dr. Ankita Sharma",
+    title: "Pediatrician, 41",
   },
   {
     rating: 5,
     quote:
-      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Anna Yon",
-    title: "Senior UI/UX Designer",
+      "The personalized metabolic assessment helped identify my specific weight gain causes. The treatment plan was tailored perfectly to my needs. I've lost 25 kg and feel amazing.",
+    name: "Meera Kapoor",
+    title: "Teacher, 29",
   },
   // ...add more slide data as needed
 ];

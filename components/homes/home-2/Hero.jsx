@@ -161,14 +161,14 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
                   <span className="fs-6 fw-bold text-primary dark:text-secondary">
-                    CRM Tool Workflow
+                    Medical Weight Loss
                   </span>
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
-                    Streamline your Tool Workflow.
+                    Lose up to 20% body weight with GLP-1.
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Keep data consistent, with native CRM integrations that
-                    streamline your entire Tool workflow.
+                    Safe, effective weight loss with medical supervision from 
+                    endocrinologists and comprehensive lifestyle support.
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -187,12 +187,12 @@ export default function Hero() {
                         href={`/page-pricing`}
                         className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
                       >
-                        Start free trial
+                        Book Consultation
                       </Link>
                     </div>
                   </form>
                   <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                    No credit card required.
+                    Free initial consultation available.
                   </p>
                 </div>
               </div>

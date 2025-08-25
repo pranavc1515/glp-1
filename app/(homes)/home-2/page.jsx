@@ -11,9 +11,9 @@ import Pricing from "@/components/common/Pricing";
 import React from "react";
 export const metadata = {
   title:
-    "Home 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GLP-1 Weight Loss Program | Medical Supervision & Results | Lexend",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Transform your health with our GLP-1 weight loss program. Expert endocrinologist care, proven results up to 20% weight loss, and comprehensive support.",
 };
 export default function HomePage2() {
   return (

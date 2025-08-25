@@ -11,9 +11,9 @@ import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
 export const metadata = {
   title:
-    "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Medical Weight Loss with GLP-1 Injections | Lexend Weight Loss Platform",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Lose up to 20% body weight safely with GLP-1 injections, medical supervision, and personalized care from endocrinologists. Book your free consultation today.",
 };
 export default function HomePage1() {
   return (

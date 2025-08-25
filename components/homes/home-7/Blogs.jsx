@@ -27,7 +27,7 @@ export default function Blogs() {
                   <h2 className="title h3 xl:h2 m-0">
                     Latest from{" "}
                     <span className="px-1 bg-tertiary text-primary d-block lg:d-inline-block">
-                      our insights
+                      weight loss experts
                     </span>
                   </h2>
                 </div>

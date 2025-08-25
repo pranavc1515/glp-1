@@ -22,9 +22,9 @@ export default function Testimonials() {
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center max-w-650px mx-auto">
                 See what our{" "}
                 <span className="px-1 bg-tertiary text-primary">
-                  happy users
+                  successful patients
                 </span>{" "}
-                are sharing about us!
+                are sharing about their transformation!
               </h2>
               <div className="panel w-100">
                 <div
@@ -32,7 +32,7 @@ export default function Testimonials() {
                   data-anime="onview: -200; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
                 >
                   <p className="h6">
-                    Trusted by over 1.7 million companies worldwide
+                    Trusted by over 8,500 patients worldwide
                   </p>
                   <div className="panel">
                     <div className="element-brands text-gray-900 dark:text-white mask-x">
@@ -118,7 +118,7 @@ export default function Testimonials() {
                 href="#"
                 className="uc-link dark:text-tertiary fw-bold d-inline-flex items-center gap-narrow"
               >
-                <span>See all feedbacks</span>
+                <span>See all success stories</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </a>
               <Image

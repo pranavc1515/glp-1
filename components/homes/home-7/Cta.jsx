@@ -30,22 +30,22 @@ export default function Cta() {
           />
           <h2 className="h3 xl:display-6 lh-lg m-0 max-w-md mx-auto text-inherit">
             <span className="px-1 bg-tertiary text-primary d-block lg:d-inline-block">
-              AI automation
+              Medical weight loss
             </span>{" "}
-            solutions!
+            that works!
           </h2>
           <p className="fs-6 sm:fs-5">
-            See how we help your team solve today’s biggest challenges.
+            Start your transformation with expert medical care and proven GLP-1 treatment.
           </p>
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a
               href="#"
               className="btn btn-md xl:btn-lg btn-tertiary text-primary px-3 lg:px-5 fw-bold hover:contrast-shadow"
             >
-              Start free trial with email
+              Book your free consultation
             </a>
           </div>
-          <span className="fs-7 mt-1">No credit card required!</span>
+          <span className="fs-7 mt-1">Expert medical guidance included!</span>
         </div>
       </div>
     </div>

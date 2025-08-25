@@ -526,50 +526,50 @@ export const features11 = [
   {
     order: "order-1 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-01.svg",
-    alt: "feature-icon",
-    title: "Fast and Reliable",
+    alt: "energy-icon",
+    title: "More Energy",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Feel more energetic throughout the day as your body processes nutrients more efficiently and maintains stable blood sugar levels.",
   },
   {
     order: "order-0",
     src: "/assets/images/custom-icons/home-8-icon-02.svg",
-    alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    alt: "metabolism-icon",
+    title: "Faster Metabolism",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "GLP-1 helps boost your metabolic rate, allowing your body to burn calories more efficiently and support sustainable weight loss.",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-03.svg",
-    alt: "feature-icon",
-    title: "Enrich Data with Context",
+    alt: "cravings-icon",
+    title: "No Cravings",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Experience natural appetite suppression and reduced food cravings, making it easier to stick to healthy eating habits.",
   },
   {
     order: "order-1 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-07.svg",
-    alt: "feature-icon",
-    title: "Risk Management",
+    alt: "inflammation-icon",
+    title: "Reduced Inflammation",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "GLP-1 helps decrease systemic inflammation in your body, supporting overall health and recovery.",
   },
   {
     order: "order-3 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-05.svg",
-    alt: "feature-icon",
-    title: "Privacy Compliance",
+    alt: "joint-icon",
+    title: "Joint Pain Relief",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "As you lose weight and inflammation decreases, many patients experience significant relief from joint pain and improved mobility.",
   },
   {
     order: "order-2 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-06.svg",
-    alt: "feature-icon",
-    title: "Third-Party Management",
+    alt: "heart-icon",
+    title: "Reduced Heart Risk",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "GLP-1 treatment helps improve cardiovascular health by reducing blood pressure, cholesterol, and overall heart disease risk.",
   },
 ];
 

@@ -13,16 +13,16 @@ export default function Pricing() {
                 data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
                 <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary">
-                  Pricing
+                  Treatment Plans
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0">
-                  Simple,{" "}
+                  Transparent,{" "}
                   <span className="px-1 bg-tertiary text-primary">
-                    scalable pricing
+                    medical pricing
                   </span>
                 </h2>
                 <p className="fs-6 xl:fs-5">
-                  No extra charges. No hidden fees.
+                  All-inclusive plans. Complete medical care.
                 </p>
               </div>
               <div
@@ -56,50 +56,50 @@ export default function Pricing() {
                       >
                         <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
                           <span className="text-truncate-1">
-                            Real-time tracking and notifications
+                            Medical consultation with endocrinologist
                           </span>
                         </div>
                         <div className="panel p-2 lg:px-3">
                           <span className="text-truncate-1">
-                            Real-time analytics
+                            Progress tracking and monitoring
                           </span>
                         </div>
                         <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
                           <span className="text-truncate-1">
-                            CRM and Zapier integrations
+                            GLP-1 medication included
                           </span>
                         </div>
                         <div className="panel p-2 lg:px-3">
-                          <span className="text-truncate-1">Files uploads</span>
+                          <span className="text-truncate-1">Blood tests and lab work</span>
                         </div>
                         <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
                           <span className="text-truncate-1">
-                            User performance
+                            Lifestyle coaching support
                           </span>
                         </div>
                         <div className="panel p-2 lg:px-3">
                           <span className="text-truncate-1">
-                            Unlimited team workspaces
-                          </span>
-                        </div>
-                        <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
-                          <span className="text-truncate-1">
-                            SSO support and custom user roles
-                          </span>
-                        </div>
-                        <div className="panel p-2 lg:px-3">
-                          <span className="text-truncate-1">
-                            Approval workflows
+                            Smart scale and app access
                           </span>
                         </div>
                         <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
                           <span className="text-truncate-1">
-                            Salesforce integration
+                            Dedicated care coordinator
                           </span>
                         </div>
                         <div className="panel p-2 lg:px-3">
                           <span className="text-truncate-1">
-                            Bulk send &amp; Forms
+                            Nutritionist consultations
+                          </span>
+                        </div>
+                        <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
+                          <span className="text-truncate-1">
+                            24/7 medical support
+                          </span>
+                        </div>
+                        <div className="panel p-2 lg:px-3">
+                          <span className="text-truncate-1">
+                            At-home blood testing
                           </span>
                         </div>
                       </div>
@@ -110,12 +110,12 @@ export default function Pricing() {
                           <div>
                             <div className="vstack">
                               <div className="panel vstack items-center gap-narrow p-2 py-4 lg:py-6 border-bottom">
-                                <h3 className="h5 title mb-1">Free</h3>
+                                <h3 className="h5 title mb-1">Consultation</h3>
                                 <h5 className="h1 price m-0">
                                   <sup className="h5 m-0 mx-narrow">$</sup>0
                                 </h5>
                                 <span className="fs-7 fw-normal m-0">
-                                  Free forever
+                                  Free initial consultation
                                 </span>
                               </div>
                               <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
@@ -133,9 +133,9 @@ export default function Pricing() {
                                   <i className="icon-narrow unicon-close fw-bold" />
                                 </span>
                               </div>
-                              <div className="panel p-2 lg:px-3">1GB</div>
+                              <div className="panel p-2 lg:px-3">Basic assessment</div>
                               <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
-                                1 user
+                                Initial planning
                               </div>
                               <div className="panel p-2 lg:px-3">
                                 <span className="cstack mx-auto w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
@@ -157,12 +157,12 @@ export default function Pricing() {
                                   <i className="icon-narrow unicon-close fw-bold" />
                                 </span>
                               </div>
-                              <div className="panel p-2 lg:px-3">5 forms</div>
+                              <div className="panel p-2 lg:px-3">Treatment options</div>
                               <div className="vstack items-center gap-2 p-4 border-top">
                                 <button className="btn btn-md btn-ghost-primary fw-bold border rounded-pill px-3 w-100">
-                                  Start for free
+                                  Book consultation
                                 </button>
-                                <p className="fs-7 fw-normal">Free forever!</p>
+                                <p className="fs-7 fw-normal">No obligation!</p>
                               </div>
                             </div>
                           </div>
@@ -176,13 +176,13 @@ export default function Pricing() {
                             >
                               <div className="panel vstack items-center gap-narrow p-2 py-4 lg:py-6 border-bottom">
                                 <h3 className="h5 title mb-1 text-primary dark:text-tertiary">
-                                  Pro
+                                  GLP-1 Program
                                 </h3>
                                 <h5 className="h1 price m-0">
-                                  <sup className="h5 m-0 mx-narrow">$</sup>9
+                                  <sup className="h5 m-0 mx-narrow">$</sup>399
                                 </h5>
                                 <span className="fs-7 fw-normal m-0">
-                                  Per month billing yearly
+                                  Per month, all-inclusive
                                 </span>
                                 <span className="position-absolute top-0 end-0 cstack px-1 bg-tertiary text-primary border rounded-default m-1">
                                   Best value!
@@ -203,9 +203,9 @@ export default function Pricing() {
                                   <i className="icon-narrow unicon-checkmark fw-bold" />
                                 </span>
                               </div>
-                              <div className="panel p-2 lg:px-3">5GB</div>
+                              <div className="panel p-2 lg:px-3">6-month program</div>
                               <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
-                                10 users
+                                Weekly check-ins
                               </div>
                               <div className="panel p-2 lg:px-3">
                                 <span className="cstack mx-auto w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
@@ -227,13 +227,13 @@ export default function Pricing() {
                                   <i className="icon-narrow unicon-close fw-bold" />
                                 </span>
                               </div>
-                              <div className="panel p-2 lg:px-3">50 forms</div>
+                              <div className="panel p-2 lg:px-3">Side effect management</div>
                               <div className="vstack items-center gap-2 p-4 border-top">
                                 <button className="btn btn-md btn-primary dark:bg-tertiary dark:text-primary fw-bold rounded-pill px-3 w-100">
-                                  Get started
+                                  Start program
                                 </button>
                                 <p className="fs-7 fw-normal">
-                                  Billed $108 per year.
+                                  Most popular choice.
                                 </p>
                               </div>
                             </div>
@@ -241,12 +241,12 @@ export default function Pricing() {
                           <div>
                             <div className="vstack">
                               <div className="panel vstack items-center gap-narrow p-2 py-4 lg:py-6 border-bottom">
-                                <h3 className="h5 title mb-1">Business</h3>
+                                <h3 className="h5 title mb-1">Premium Care</h3>
                                 <h5 className="h1 price m-0">
-                                  <sup className="h5 m-0 mx-narrow">$</sup>29
+                                  <sup className="h5 m-0 mx-narrow">$</sup>599
                                 </h5>
                                 <span className="fs-7 fw-normal m-0">
-                                  Per month billing yearly
+                                  Per month, comprehensive
                                 </span>
                               </div>
                               <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
@@ -264,9 +264,9 @@ export default function Pricing() {
                                   <i className="icon-narrow unicon-checkmark fw-bold" />
                                 </span>
                               </div>
-                              <div className="panel p-2 lg:px-3">Unlimited</div>
+                              <div className="panel p-2 lg:px-3">12-month program</div>
                               <div className="panel p-2 lg:px-3 bg-gray-25 dark:bg-gray-800">
-                                Unlimited users
+                                Daily support
                               </div>
                               <div className="panel p-2 lg:px-3">
                                 <span className="cstack mx-auto w-24px h-24px rounded-circle bg-primary text-white dark:bg-tertiary dark:text-dark">
@@ -289,14 +289,14 @@ export default function Pricing() {
                                 </span>
                               </div>
                               <div className="panel p-2 lg:px-3">
-                                Unlimited forms
+                                Priority medical support
                               </div>
                               <div className="vstack items-center gap-2 p-4 border-top">
                                 <button className="btn btn-md btn-ghost-primary fw-bold border rounded-pill px-3 w-100">
-                                  Get started
+                                  Contact us
                                 </button>
                                 <p className="fs-7 fw-normal">
-                                  Billed $348 per year.
+                                  Complete care package.
                                 </p>
                               </div>
                             </div>

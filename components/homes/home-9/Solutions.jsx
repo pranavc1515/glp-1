@@ -17,17 +17,16 @@ export default function Solutions() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fs-7 fw-medium py-narrow px-2 bg-dark text-white dark:bg-primary dark:text-dark rounded-pill">
-                Solutions
+                GLP-1 Benefits
               </span>
               <h2 className="h3 lg:h1 m-0">
                 <span className="text-tertiary dark:text-primary">
-                  End-to-End
+                  GLP-1 helps
                 </span>{" "}
-                seamless data management solutions
+                you lose weight naturally
               </h2>
               <p className="fs-6 xl:fs-5 xl:px-8">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management.
+                GLP-1s are a naturally occurring peptide in the human body. They make you feel full for longer, naturally reducing appetite and cravings.
               </p>
             </div>
             <div
@@ -63,7 +62,7 @@ export default function Solutions() {
               data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 500;"
             >
               <span>
-                <i className="icon-1 fw-bold unicon-add" /> View all solutions
+                <i className="icon-1 fw-bold unicon-add" /> Learn more about GLP-1
               </span>
             </Link>
           </div>

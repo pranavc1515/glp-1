@@ -8,14 +8,14 @@ import Faqs from "@/components/homes/home-7/Faqs";
 import Features from "@/components/homes/home-7/Features";
 import Hero from "@/components/homes/home-7/Hero";
 import Pricing from "@/components/homes/home-7/Pricing";
-import Solutions from "@/components/homes/home-7/Solutions";
+import Solutions from "@/components/homes/home-9/Solutions";
 import Testimonials from "@/components/homes/home-7/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Home 7 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Comprehensive Weight Loss Program | GLP-1 Medical Treatment | Lexend Health",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Complete medical weight loss solution with GLP-1 injections, expert endocrinologist care, lifestyle coaching, and proven results. Start your transformation today.",
 };
 export default function page() {
   return (

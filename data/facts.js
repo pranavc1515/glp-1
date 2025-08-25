@@ -1,31 +1,31 @@
 export const facts = [
   {
     id: 1,
-    year: 2014,
-    description: "Lexend founded",
+    year: 2023,
+    description: "Platform launched",
     animation:
-      "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: 2023; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 2,
-    count: 50,
-    description: "Hardworking group",
+    count: 25,
+    description: "Medical experts",
     animation:
-      "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 25]; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 3,
-    count: 4600,
-    description: "Document workflows",
+    count: 5800,
+    description: "Success stories",
     animation:
-      "onview: -100; textContent: [0, 4600]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 5800]; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 4,
-    count: 17,
-    description: "Taux convertion",
+    count: 92,
+    description: "Success rate",
     animation:
-      "onview: -100; textContent: [0, 17]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 92]; round: 1; easing: linear; duration: 1200;",
     suffix: "%",
   },
 ];
@@ -33,39 +33,39 @@ export const facts = [
 export const factItems = [
   {
     id: 1,
-    value: "280+",
-    description: "Track of leads",
+    value: "20%",
+    description: "Average weight loss",
   },
   {
     id: 2,
-    value: "90%",
-    description: "Satisfied users",
+    value: "95%",
+    description: "Patient satisfaction",
   },
   {
     id: 3,
-    value: "10.2k",
-    description: "Team collaborations",
+    value: "8.5k",
+    description: "Lives transformed",
   },
 ];
 
 export const panelsData = [
   {
-    value: 2014,
-    text: "Lexend founded.",
+    value: 2023,
+    text: "Platform launched.",
     animationData:
-      "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: 2023; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 50,
-    text: "Hardworking group.",
+    value: 25,
+    text: "Medical specialists.",
     animationData:
-      "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 25]; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 100,
-    text: "Document workflows.",
+    value: 8,
+    text: "Patients helped.",
     animationData:
-      "onview: -100; textContent: [0, 100]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 8]; round: 1; easing: linear; duration: 1200;",
     suffix: "k",
   },
 ];

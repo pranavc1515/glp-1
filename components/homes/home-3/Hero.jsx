@@ -160,31 +160,31 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
-                Streamlines all your <br className="d-none lg:d-block" />
-                project workflows
+                Transform your life with <br className="d-none lg:d-block" />
+                medical weight loss
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Drag-and-drop editing helps you build them fast,
+                GLP-1 injections with expert medical supervision
                 <br className="d-none sm:d-block" />
-                with your choice of 750+ ready-to-use, free templates.
+                help you lose up to 20% body weight safely and effectively.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column fdr">
                 <Link
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Start free 14-day trial
+                  Book Free Consultation
                 </Link>
                 <a
                   onClick={openContactModal}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
-                  Request a demo
+                  Learn About GLP-1
                 </a>
               </div>
               <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0">
-                No credit card required.
+                Results or money back guarantee.
               </p>
             </div>
             <div
