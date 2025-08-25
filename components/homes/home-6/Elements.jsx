@@ -16,7 +16,10 @@ export default function Elements() {
             className="section-inner panel vstack items-center gap-3 xl:gap-4 text-center max-w-100"
             data-anime="onview: -100; targets: >*; translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(200);"
           >
-            <h4 className="h4 m-0">100+ Pro Elements and Widgets</h4>
+            <h4 className="h4 m-0">Weight loss, and so much more</h4>
+            <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70 max-w-700px mx-auto">
+              We help you feel your best, look your best, and improve other important aspects of your life
+            </p>
             <div className="panel w-100">
               <Swiper
                 className="swiper mask-x"
@@ -155,7 +158,7 @@ export default function Elements() {
               href="#"
               className="btn btn-sm lg:btn-md btn-primary px-3 md:mt-2 lg:mt-4"
             >
-              <span>View all elements</span>
+              <span>Learn about all benefits</span>
               <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
             </a>
           </div>
