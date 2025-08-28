@@ -18,12 +18,10 @@ export default function Features() {
           >
             <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                Smart features for your business
+                How Our Program Works
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                4 Key Areas of Excellence - We combine clinically proven GLP-1 medication with personalized medical care, convenient delivery, and ongoing support to help you achieve sustainable weight loss without the struggle of traditional diets.
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
@@ -38,14 +36,14 @@ export default function Features() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Audit Trial</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Clinical Results</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "uc-active" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Personalized Care</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "uc-active" : ""}`}
@@ -53,7 +51,7 @@ export default function Features() {
                     role="presentation"
                   >
                     <a className="h6 lg:h5 text-nowrap m-0">
-                      Control your Apps
+                      Convenient Delivery
                     </a>
                   </li>
                   <li
@@ -61,7 +59,7 @@ export default function Features() {
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Approvals</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Ongoing Support</a>
                   </li>
                 </ul>
               </div>
@@ -78,7 +76,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Share tools quickly and confidently in minutes"
+                              alt="Clinically proven weight loss results"
                               src="/assets/images/template/feature-image-02.jpg"
                               width="1200"
                               height="1200"
@@ -91,21 +89,16 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Share tools quickly and confidently in
-                                    minutes
+                                    Clinically Proven Results - Up to 21% Weight Loss
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    This powerfull tool eliminates the need to
-                                    leave Salesforce to get things done as I can
-                                    create a custom proposal with dynamic
-                                    pricing tables. You can also customize your
-                                    own dynamic versions.
+                                    Our GLP-1 program delivers 5x better results than diet and exercise alone. Clinical studies show average weight loss of 15-21% in 16 months. The medication naturally reduces hunger and helps you feel satisfied with smaller portions - no willpower required.
                                   </p>
                                  <Link
                                     href="/page-features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
-                                    <span>Let's find out</span>
+                                    <span>See clinical results</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                   </Link>
                                 </div>
@@ -125,7 +118,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Connect every part of your entire business"
+                              alt="Personalized weight loss care"
                               src="/assets/images/template/feature-image-03.jpg"
                               width="1200"
                               height="1200"
@@ -138,18 +131,16 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Connect every part of your entire business
+                                    Personalized Medical Care & Weekly Coaching
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Keep data consistent, with native CRM
-                                    integrations that streamline your entire
-                                    Tool workflow.
+                                    Start with a comprehensive health assessment and get matched with specialist endocrinologists. Your personalized plan includes weekly nutrition coaching, custom meal plans, and monthly doctor check-ins - all tailored to your lifestyle and goals.
                                   </p>
                                   <a
                                     href="#"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
-                                    <span>See all integrations</span>
+                                    <span>Learn about our process</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                   </a>
                                 </div>
@@ -169,7 +160,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Maintain compliance and control your apps"
+                              alt="Convenient medication delivery"
                               src="/assets/images/template/feature-image-01.jpg"
                               width="1200"
                               height="1200"
@@ -182,20 +173,16 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Maintain compliance and control your apps
+                                    Convenient At-Home Delivery & Smart Tracking
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Improve security and trust with built-in
-                                    legally binding e-Signatures. Create
-                                    pre-approved templates, content blocks and
-                                    lock all legal information to prevent costly
-                                    mistakes.
+                                    Skip the pharmacy lines - your medication arrives discreetly at your door with easy pre-filled pens. Our app connects your smart scale, fitness tracker, and meal logging in one place. Everything you need, delivered when you need it.
                                   </p>
                                 <Link
                                     href="/page-features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
-                                    <span>Let's find out</span>
+                                    <span>How it works</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                   </Link>
                                 </div>
@@ -215,7 +202,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Review quickly and confidently"
+                              alt="24/7 support and guidance"
                               src="/assets/images/template/feature-image-04.jpg"
                               width="1200"
                               height="1200"
@@ -228,19 +215,16 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Review quickly and confidently
+                                    24/7 Support & Long-term Success Planning
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Get real-time access to approvals, comments
-                                    and version tracking. Smart features like
-                                    variables and conditional logic help you
-                                    eliminate Tool errors.
+                                    Access instant support via chat for any questions about side effects, nutrition, or progress. Get ongoing coaching, habit-building guidance, and a structured plan for maintaining your results even after medication ends. We're always just a message away.
                                   </p>
                                   <Link
                                     href="/page-features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
-                                    <span>Let's find out</span>
+                                    <span>Get started today</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                   </Link>
                                 </div>

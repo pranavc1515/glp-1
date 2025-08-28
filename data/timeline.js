@@ -1,40 +1,38 @@
 export const timelineData = [
   {
     src: "/assets/images/template/timeline-01.png",
-    alt: "Where the idea come up of Lexend :)",
-    year: "2014",
-    description: "Where the idea come up of Lexend :)",
+    alt: "Weight loss injection launches in India",
+    year: "March 2025",
+    description: "Weight loss injection launches in India: Is it the answer to obesity?",
   },
   {
     src: "/assets/images/template/timeline-02.png",
-    alt: "Launched our first business that can be created in minutes, build meaningful relationships.",
-    year: "2015",
-    description:
-      "Launched our first business that can be created in minutes, build meaningful relationships.",
+    alt: "Has this injection finally cracked the weight loss code?",
+    year: "March 2025",
+    description: "Has this injection finally cracked the weight loss code? Medical experts weigh in on breakthrough GLP-1 technology.",
   },
   {
     src: "/assets/images/template/timeline-03.png",
-    alt: "Opened our new office in Toronto, CA",
-    year: "2016",
-    description: "Opened our new office in Toronto, CA",
+    alt: "Ground-breaking weight loss injection gets approved in India",
+    year: "April 2025",
+    description: "Ground-breaking weight loss injection gets approved in India - Revolutionary treatment brings new hope for obesity.",
   },
   {
     src: "/assets/images/template/timeline-04.png",
-    alt: "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
-    year: "2019",
-    description:
-      "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+    alt: "Revolutionary weight loss injection hits India",
+    year: "April 2025",
+    description: "Revolutionary weight loss injection hits India; good news for obese people seeking effective treatment.",
   },
   {
     src: "/assets/images/template/timeline-05.png",
-    alt: "Opened a new office in London, UK.",
-    year: "2020",
-    description: "Opened a new office in London, UK.",
+    alt: "Eli Lilly's oral GLP-1 shows breakthrough results",
+    year: "April 2025",
+    description: "Eli Lilly's oral GLP-1 drug shows 16-pound weight loss in clinical trials, offering convenient alternative to injections.",
   },
   {
     src: "/assets/images/template/timeline-06.png",
-    alt: "Top-rated software solution for service suppliers.",
+    alt: "GLP-1 drugs making global headlines",
     year: "Today",
-    description: "Top-rated software solution for service suppliers.",
+    description: "GLP-1 treatments are making headlines worldwide for their revolutionary 21% weight loss results and life-changing impact.",
   },
 ];

@@ -11,7 +11,8 @@ import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
-
+import Features2 from "@/components/homes/home-8/Features2";
+import Howworks from "@/components/homes/home-5/Howworks";
 export const metadata = {
   title:
     "Medical Weight Loss with GLP-1 Injections | healthflexi Weight Loss Platform",
@@ -33,6 +34,10 @@ export default function HomePage1() {
           </div>
          
           <Features />
+          <div className="theme-4">
+          <Features2 />
+          </div>
+          <Howworks />
           <Integretion />
           <Facts />
           <Pricing />
