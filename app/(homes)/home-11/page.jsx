@@ -11,6 +11,7 @@ import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
+import Calculator from "@/components/innerpages/features/Hero";
 import Features2 from "@/components/homes/home-8/Features2";
 import Howworks from "@/components/homes/home-5/Howworks";
 export const metadata = {
@@ -39,6 +40,9 @@ export default function HomePage1() {
           </div>
           <Howworks />
           <Integretion />
+          <div className="theme-4">
+          <Calculator />
+          </div>
           <Facts />
           <Pricing />
           <Feedback />

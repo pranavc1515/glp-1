@@ -1,6 +1,7 @@
-import { features6 } from "@/data/features";
+import { calculatorFeatures } from "@/data/calculators";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -47,16 +48,14 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                What separates you from others.
+                Your Journey. Your Numbers. Your Way.
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                Understanding your health starts with clarity. These calculators are here to guide—not define—you, offering insights that support smarter, more personalized decisions on your path to well-being.
               </p>
             </div>
             <div className="sticky-scene panel vstack gap-4 sm:gap-6 xl:gap-8">
-              {features6.map((feature) => (
+              {calculatorFeatures.map((feature) => (
                 <div
                   key={feature.id}
                   className="feature-item panel px-3 lg:px-4 py-4 rounded-2 bg-secondary dark:bg-gray-800"
@@ -85,13 +84,13 @@ export default function Hero() {
                               {feature.description}
                             </p>
                             {feature.link && (
-                              <a
+                              <Link
                                 href={feature.link.href}
                                 className="uc-link fw-bold hstack gap-narrow"
                               >
                                 <span>{feature.link.text}</span>
                                 <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
-                              </a>
+                              </Link>
                             )}
                           </div>
                         </div>
