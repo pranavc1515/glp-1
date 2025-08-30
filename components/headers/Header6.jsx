@@ -83,14 +83,14 @@ export default function Header6({ staticPosition = false }) {
                         alt="HealthFlexi"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-new-light.svg"
+                        src="/assets/images/common/logo-new-light.png"
                       />
                       <Image
                         className="d-none dark:d-block"
                         alt="HealthFlexi"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-new-dark.svg"
+                        src="/assets/images/common/logo-new-dark.png"
                       />
                     </Link>
                   </div>

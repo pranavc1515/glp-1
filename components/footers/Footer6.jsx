@@ -23,14 +23,14 @@ export default function Footer6() {
                           <Image
                             className="dark:d-none"
                             alt="HealthFlexi"
-                            src="/assets/images/common/logo-new-light.svg"
+                            src="/assets/images/common/logo-new-light.png"
                             width={128}
                             height={34}
                           />
                           <Image
                             className="d-none dark:d-block"
                             alt="HealthFlexi"
-                            src="/assets/images/common/logo-new-dark.svg"
+                            src="/assets/images/common/logo-new-dark.png"
                             width={128}
                             height={34}
                           />
