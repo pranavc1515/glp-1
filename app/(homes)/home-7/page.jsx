@@ -13,7 +13,7 @@ import Testimonials from "@/components/homes/home-7/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Comprehensive Weight Loss Program | GLP-1 Medical Treatment | Lexend Health",
+    "Comprehensive Weight Loss Program | GLP-1 Medical Treatment | HealthFlexi Health",
   description:
     "Complete medical weight loss solution with GLP-1 injections, expert endocrinologist care, lifestyle coaching, and proven results. Start your transformation today.",
 };

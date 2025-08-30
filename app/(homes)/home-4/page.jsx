@@ -15,9 +15,9 @@ import Testimonials from "@/components/homes/home-4/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Home 4 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 4 || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage4() {
   return (

@@ -1,19 +1,19 @@
 import Header1 from "@/components/headers/Header1";
-import Features from "@/components/homes/home-1/Features";
-import Hero from "@/components/homes/home-7/Hero";
-import Integretion from "@/components/homes/home-1/Integretion";
-import Facts from "@/components/homes/home-1/Facts";
-import Pricing from "@/components/homes/home-1/Pricing";
-import Feedback from "@/components/homes/home-1/Feedback";
-import Timeline from "@/components/homes/home-1/Timeline";
-import Team from "@/components/homes/home-1/Team";
-import Cta from "@/components/homes/home-1/Cta";
+import Features from "@/components/homes/home-11/Features";
+import Hero from "@/components/homes/home-11/Hero";
+import Integretion from "@/components/homes/home-11/Integretion";
+import Facts from "@/components/homes/home-11/Facts";
+import Pricing from "@/components/homes/home-11/Pricing";
+import Feedback from "@/components/homes/home-11/Feedback";
+import Timeline from "@/components/homes/home-11/Timeline";
+import Team from "@/components/homes/home-11/Team";
+import Cta from "@/components/homes/home-11/Cta";
 import Footer1 from "@/components/footers/Footer1";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
-import Calculator from "@/components/innerpages/features/Hero";
-import Features2 from "@/components/homes/home-8/Features2";
-import Howworks from "@/components/homes/home-5/Howworks";
+import Calculator from "@/components/homes/home-11/Calculator";
+import Features2 from "@/components/homes/home-11/Features2";
+import Howworks from "@/components/homes/home-11/Howworks";
 export const metadata = {
   title:
     "Medical Weight Loss with GLP-1 Injections | healthflexi Weight Loss Platform",
@@ -44,7 +44,6 @@ export default function HomePage1() {
           <Calculator />
           </div>
           <Facts />
-          <Pricing />
           <Feedback />
           <Timeline />
           <Team />

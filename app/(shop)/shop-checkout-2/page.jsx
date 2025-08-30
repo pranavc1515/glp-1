@@ -6,9 +6,9 @@ import Breadcumb from "@/components/shop/Breadcumb";
 import Checkout2 from "@/components/shop/Checkout2";
 export const metadata = {
   title:
-    "Shop Checkout 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop Checkout 2 || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ShopcheckoutPage2() {
   return (

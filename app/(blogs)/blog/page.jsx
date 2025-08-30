@@ -6,9 +6,9 @@ import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {
   title:
-    "Blog 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog 1 || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function BlogPage1() {
   return (

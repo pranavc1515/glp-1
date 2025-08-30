@@ -44,11 +44,11 @@ export default function Contact2() {
           >
             <div className="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Contact us
+                Get Your Free Weight Loss Consultation
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Feel free to reach out to us using the options below, and our
-                dedicated team will respond to your inquiries promptly.
+                Connect with our medical specialists to learn about our GLP-1 weight loss program. 
+                Our team is here to answer your questions and guide you toward your health goals.
               </p>
             </div>
             <div className="panel max-w-750px mx-auto">
@@ -57,8 +57,7 @@ export default function Contact2() {
                 className="vstack gap-2 p-3 sm:p-6 xl:p-8 rounded-2 border bg-white dark:bg-gray-900 border-secondary dark:border-gray-300 dark:border-opacity-20"
               >
                 <p className="fs-6 text-dark dark:text-white text-opacity-70 mb-2">
-                  Have a question or feedback? Fill out the form below, and
-                  we'll get back to you as soon as possible.
+                  Ready to transform your life? Fill out the form below to schedule your free consultation with our medical weight loss specialists.
                 </p>
                 <div className="row child-cols-12 md:child-cols-6 g-2">
                   <div>
@@ -93,12 +92,12 @@ export default function Contact2() {
                   className="btn btn-primary btn-md text-white mt-2"
                   type="submit"
                 >
-                  Send message
+                  Schedule Free Consultation
                 </button>
                 <p className="text-center">
-                  Or drop us a message via
-                  <a className="uc-link" href="mailto:hello@lexend.co">
-                    email
+                  Or contact our medical team directly at
+                  <a className="uc-link" href="mailto:consultation@healthflexi.com">
+                    consultation@healthflexi.com
                   </a>
                   .
                 </p>

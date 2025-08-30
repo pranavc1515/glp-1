@@ -13,7 +13,7 @@ export default function ContactLinks() {
                 className="h4 sm:h3 lg:h2 m-0 text-center"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
               >
-                Other ways to reach us
+                Multiple ways to connect with us
               </h2>
               <div
                 className="row child-cols-12 sm:child-cols-6 lg:child-cols-3 g-2 xl:g-3 justify-between col-match"

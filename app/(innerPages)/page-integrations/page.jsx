@@ -10,9 +10,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Integrations from "@/components/innerpages/Integrations";
 export const metadata = {
   title:
-    "Integrations || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Integrations || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function IntegrationPage() {
   return (

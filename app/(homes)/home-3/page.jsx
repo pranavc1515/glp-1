@@ -12,7 +12,7 @@ import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Professional Weight Loss Treatment | GLP-1 Injections | Lexend Health",
+    "Professional Weight Loss Treatment | GLP-1 Injections | HealthFlexi Health",
   description:
     "Professional medical weight loss with GLP-1 injections. Personalized treatment plans, lifestyle coaching, and ongoing medical support for sustainable results.",
 };

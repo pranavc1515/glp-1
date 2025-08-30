@@ -11,7 +11,7 @@ import Pricing from "@/components/common/Pricing";
 import React from "react";
 export const metadata = {
   title:
-    "GLP-1 Weight Loss Program | Medical Supervision & Results | Lexend",
+    "GLP-1 Weight Loss Program | Medical Supervision & Results | HealthFlexi",
   description:
     "Transform your health with our GLP-1 weight loss program. Expert endocrinologist care, proven results up to 20% weight loss, and comprehensive support.",
 };
