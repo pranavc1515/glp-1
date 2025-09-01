@@ -1,20 +1,19 @@
 
-/*
 import Header2 from "@/components/headers/Header2";
-
 import Footer2 from "@/components/footers/Footer2";
-
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import Brands from "@/components/common/Brands2";
 import Cta from "@/components/innerpages/features/Cta";
 import Integrations from "@/components/innerpages/Integrations";
+
 export const metadata = {
   title:
     "Integrations || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
+
 export default function IntegrationPage() {
   return (
     <>
@@ -22,7 +21,6 @@ export default function IntegrationPage() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <Integrations />
-          {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
           <Testimonials />
           <div
@@ -52,9 +50,4 @@ export default function IntegrationPage() {
       </div>
     </>
   );
-}
-*/
-
-export default function IntegrationPage() {
-  return null;
 }

@@ -1,19 +1,18 @@
-/*
 import Header2 from "@/components/headers/Header2";
-
 import Footer2 from "@/components/footers/Footer2";
-
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import Brands from "@/components/common/Brands2";
 import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
+
 export const metadata = {
   title:
     "Pricing || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
+
 export default function PricingPage() {
   return (
     <>
@@ -21,7 +20,6 @@ export default function PricingPage() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <Pricing />
-          {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
           <Testimonials />
           <div
@@ -51,9 +49,4 @@ export default function PricingPage() {
       </div>
     </>
   );
-}
-*/
-
-export default function PricingPage() {
-  return null;
 }
