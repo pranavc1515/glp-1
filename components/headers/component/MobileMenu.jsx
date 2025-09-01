@@ -1,6 +1,6 @@
 "use client";
 import { useContextElement } from "@/context/Context";
-import { icons, menuItems } from "@/data/menu";
+import { icons } from "@/data/menu";
 import { closeMobileMenu } from "@/utlis/toggleMobileMenu";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,8 +10,6 @@ import { useEffect, useRef, useState } from "react";
 export default function MobileMenu() {
   const { isDark, handleToggle } = useContextElement();
   const pathname = usePathname();
-  const [activeParent1, setActiveParent1] = useState(-1);
-  const [activeParent2, setActiveParent2] = useState(-1);
   const elementRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -34,37 +32,22 @@ export default function MobileMenu() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+  
   useEffect(() => {
     closeMobileMenu();
   }, [pathname]);
 
-  const isMenuActive = (menu) => {
-    let isActive = false;
-    if (menu.href) {
-      if (pathname.split("/")[1] == menu.href?.split("/")[1]) {
-        isActive = true;
-      }
-    }
-    if (menu.subItems) {
-      menu.subItems.forEach((el) => {
-        if (el.href) {
-          if (pathname.split("/")[1] == el.href?.split("/")[1]) {
-            isActive = true;
-          }
-        }
-        if (el.subItems) {
-          el.subItems.map((elm) => {
-            if (elm.href) {
-              if (pathname.split("/")[1] == elm.href?.split("/")[1]) {
-                isActive = true;
-              }
-            }
-          });
-        }
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
       });
+      closeMobileMenu(); // Close mobile menu after clicking
     }
-    return isActive;
   };
+
   return (
     <div
       ref={containerRef}
@@ -126,120 +109,68 @@ export default function MobileMenu() {
             hidden=""
           />
           <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
-            {menuItems.map((item, index) => (
-              <li
-                key={index}
-                className={`${item.subItems ? "uc-parent" : ""} ${
-                  activeParent1 == index ? "active" : ""
-                }`}
+            {/* Main Navigation Items */}
+            <li>
+              <a 
+                onClick={() => scrollToSection('features-section')}
+                className="text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary cursor-pointer"
               >
-                {item.href ? (
-                  <Link
-                    className={isMenuActive(item) ? "menuActive" : ""}
-                    href={item.href}
-                  >
-                    {item.label}
-                  </Link>
-                ) : (
-                  <>
-                    <a
-                      className={isMenuActive(item) ? "menuActive" : ""}
-                      onClick={() =>
-                        setActiveParent1((pre) => (pre == index ? -1 : index))
-                      }
-                    >
-                      {item.label}
-                    </a>
-                    {item.subItems && (
-                      <ul
-                        className={`uc-nav-sub ${
-                          activeParent1 == index ? "active" : ""
-                        }`}
-                      >
-                        {item.subItems.map((subItem, index2) => (
-                          <li
-                            key={index2}
-                            className={`${!subItem.href ? "uc-parent" : ""}  ${
-                              activeParent2 == index2 ? "active" : ""
-                            }`}
-                            role="presentation"
-                          >
-                            {subItem.href ? (
-                              <Link
-                                className={
-                                  isMenuActive(subItem) ? "menuActive" : ""
-                                }
-                                href={subItem.href}
-                              >
-                                {subItem.label}
-                              </Link>
-                            ) : (
-                              <>
-                                <a
-                                  className={
-                                    isMenuActive(subItem) ? "menuActive" : ""
-                                  }
-                                  onClick={() =>
-                                    setActiveParent2((pre) =>
-                                      pre == index2 ? -1 : index2
-                                    )
-                                  }
-                                >
-                                  {subItem.label}
-                                </a>
-                                {subItem.subItems && (
-                                  <ul
-                                    className={`uc-nav-sub ${
-                                      activeParent2 == index2 ? "active" : ""
-                                    }`}
-                                  >
-                                    {subItem.subItems.map((subItem, index3) => (
-                                      <li
-                                        key={index3}
-                                        className={
-                                          !subItem.href ? "uc-parent" : ""
-                                        }
-                                        role="presentation"
-                                      >
-                                        {subItem.href ? (
-                                          <Link
-                                            className={
-                                              isMenuActive(subItem)
-                                                ? "menuActive"
-                                                : ""
-                                            }
-                                            href={subItem.href}
-                                          >
-                                            {subItem.label}
-                                          </Link>
-                                        ) : (
-                                          <></>
-                                        )}
-                                      </li>
-                                    ))}
-                                  </ul>
-                                )}
-                              </>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </>
-                )}
-              </li>
-            ))}
+                Features
+              </a>
+            </li>
+            <li>
+              <a 
+                onClick={() => scrollToSection('how-it-works-section')}
+                className="text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary cursor-pointer"
+              >
+                How It Works
+              </a>
+            </li>
+            <li>
+              <a 
+                onClick={() => scrollToSection('calculator-section')}
+                className="text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary cursor-pointer"
+              >
+                Calculator
+              </a>
+            </li>
+            <li>
+              <a 
+                onClick={() => scrollToSection('team-section')}
+                className="text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary cursor-pointer"
+              >
+                Team
+              </a>
+            </li>
+            <li>
+              <a 
+                onClick={() => scrollToSection('testimonials-section')}
+                className="text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary cursor-pointer"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a 
+                onClick={() => scrollToSection('faq-section')}
+                className="text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary cursor-pointer"
+              >
+                FAQ
+              </a>
+            </li>
+            <li>
+              <Link href={`/blog-sidebar`}>Insights</Link>
+            </li>
+            <li>
+              <Link href={`/page-pricing-2`}>Pricing</Link>
+            </li>
+            
             <li className="hr opacity-10 my-1" />
             <li>
               <Link href={`/sign-up`}>Create an account</Link>
             </li>
             <li>
               <Link href={`/sign-in`}>Log in</Link>
-            </li>
-            <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
             </li>
           </ul>
           <ul className="social-icons nav-x mt-4">

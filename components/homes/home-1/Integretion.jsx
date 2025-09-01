@@ -18,7 +18,7 @@ export default function Integretion() {
             >
               <div className="panel vstack items-center gap-2 xl:gap-3 text-center">
                 <h2 className="h3 lg:h2 xl:h1 m-0">
-                  Boost your efficiency with integrations
+                  Boost your efficiency with integrations dfsf
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                   Connect every part of your business with integrations that

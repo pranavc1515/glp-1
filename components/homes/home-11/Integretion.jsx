@@ -18,11 +18,11 @@ export default function Integretion() {
             >
               <div className="panel vstack items-center gap-2 xl:gap-3 text-center">
                 <h2 className="h3 lg:h2 xl:h1 m-0">
-                  Boost your efficiency with integrations
+                  Comprehensive healthcare ecosystem for your weight loss journey
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                  Connect every part of your business with integrations that
-                  will simplify your workflow.
+                  Connect with leading medical professionals, pharmacies, and health tracking systems
+                  for seamless weight management support.
                 </p>
               </div>
               <div
@@ -69,7 +69,7 @@ export default function Integretion() {
                 href={`/page-integrations`}
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow dark:text-white"
               >
-                <span>Explore all integrations</span>
+                <span>Explore all healthcare partners</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </Link>
             </div>

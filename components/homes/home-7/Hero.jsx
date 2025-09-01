@@ -257,8 +257,8 @@ export default function Hero() {
                     muted
                     loop
                     autoPlay
-                    poster="assets/images/media/HealthFlexi-home-7.png"
-                    src="/assets/images/media/HealthFlexi-home-7.webm"
+                    poster="assets/images/media/Lexend-home-7.png"
+                    src="/assets/images/media/Lexend-home-7.webm"
                     title="Video title"
                   />
                 </div>

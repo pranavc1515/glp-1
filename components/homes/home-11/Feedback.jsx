@@ -16,7 +16,10 @@ export default function Feedback() {
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
-                Don't just take our words
+                Real transformations from{" "}
+                <span className="px-1 bg-tertiary text-primary d-block lg:d-inline-block">
+                  our patients
+                </span>
               </h2>
               <div
                 className="row child-cols-12 sm:child-cols-6 col-match g-2 lg:g-3 uc-grid"
@@ -69,7 +72,7 @@ export default function Feedback() {
                   opacity: "0.999797",
                 }}
               >
-                <span>See all feedbacks</span>
+                <span>See all success stories</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </a>
             </div>

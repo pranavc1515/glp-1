@@ -19,7 +19,7 @@ import Cta from "@/components/homes/home-11/Cta";
 
 // Shared components from home-7
 import Testimonials from "@/components/homes/home-7/Testimonials";
-import Blogs from "@/components/homes/home-7/Blogs";
+import Blogs from "@/components/homes/home-11/Blogs";
 import Faqs from "@/components/homes/home-7/Faqs";
 
 export const metadata = {
@@ -29,52 +29,58 @@ export const metadata = {
 
 export default function HomePage11() {
   return (
-    <div className="uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl-max dom-ready">
-      {/* Header Section */}
+    <>
       <div className="theme-3">
-        <Topbar />
-        <Header6 />
+        <div className="bp-xs page-wrapper home-7 bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-white text-gray-900 dark:bg-black dark:text-gray-200 overflow-x-hidden disable-cursor">
+          <Topbar />
+          <Header6 />
+          <div id="wrapper" className="wrap">
+            {/* Hero Section */}
+            <div className="theme-3">
+              <Hero />
+            </div>
+
+            {/* Main Content Sections */}
+            <div id="features-section">
+              <Features />
+            </div>
+            
+            <div className="theme-4">
+              <Features2 />
+            </div>
+            
+            <div id="how-it-works-section">
+              <Howworks />
+            </div>
+            <Integretion />
+            
+            <div id="calculator-section" className="theme-4">
+              <Calculator />
+            </div>
+            
+            <Facts />
+            <Feedback />
+            <Timeline />
+            <div id="team-section">
+              <Team />
+            </div>
+
+            {/* Additional Content Sections */}
+            <div className="theme-3">
+              <div id="testimonials-section">
+                <Testimonials />
+              </div>
+              <Blogs />
+              <div id="faq-section">
+                <Faqs />
+              </div>
+            </div>
+            
+            <Cta />
+          </div>
+          <Footer6 />
+        </div>
       </div>
-
-      <div id="wrapper" className="wrap">
-        {/* Hero Section */}
-        <div className="theme-3">
-          <Hero />
-        </div>
-
-        {/* Main Content Sections */}
-        <Features />
-        
-        <div className="theme-4">
-          <Features2 />
-        </div>
-        
-        <Howworks />
-        <Integretion />
-        
-        <div className="theme-4">
-          <Calculator />
-        </div>
-        
-        <Facts />
-        <Feedback />
-        <Timeline />
-        <Team />
-
-        {/* Additional Content Sections */}
-        <div className="theme-3">
-          <Testimonials />
-          <Blogs />
-          <Faqs />
-        </div>
-        
-        <Cta />
-      </div>
-
-      {/* Footer Section */}
-      <div className="theme-3">
-        <Footer6 />
-      </div>
-    </div>
+    </>
   );
 }
