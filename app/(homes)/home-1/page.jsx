@@ -1,3 +1,4 @@
+/*
 import Header1 from "@/components/headers/Header1";
 import Features from "@/components/homes/home-1/Features";
 import Hero from "@/components/homes/home-1/Hero";
@@ -35,4 +36,10 @@ export default function HomePage1() {
       </div>
     </>
   );
+}
+*/
+
+// This page is commented out as Home-11 is now the main home page
+export default function HomePage1() {
+  return null;
 }

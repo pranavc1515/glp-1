@@ -1,4 +1,5 @@
 
+/*
 import Footer3 from "@/components/footers/Footer3";
 import Header3 from "@/components/headers/Header3";
 import Blogs from "@/components/homes/home-4/Blogs";
@@ -41,4 +42,10 @@ export default function HomePage4() {
       </div>
     </>
   );
+}
+*/
+
+// This page is commented out as Home-11 is now the main home page
+export default function HomePage4() {
+  return null;
 }

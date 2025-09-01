@@ -1,3 +1,4 @@
+/*
 import Brands from "@/components/common/Brands";
 import Footer4 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
@@ -65,4 +66,10 @@ export default function HomePage5() {
       </div>
     </>
   );
+}
+*/
+
+// This page is commented out as Home-11 is now the main home page
+export default function HomePage5() {
+  return null;
 }

@@ -1,3 +1,4 @@
+/*
 import BlogSidebarLeft from "@/components/blog/BlogSidebarLeft";
 import Breadcumb3 from "@/components/blog/Breadcumb3";
 import Footer6 from "@/components/footers/Footer6";
@@ -30,4 +31,9 @@ export default function page() {
       </div>
     </>
   );
+}
+*/
+
+export default function page() {
+  return null;
 }

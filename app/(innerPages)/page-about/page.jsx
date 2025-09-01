@@ -1,3 +1,4 @@
+/*
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
@@ -52,4 +53,9 @@ export default function AboutPage() {
       </div>
     </>
   );
+}
+*/
+
+export default function AboutPage() {
+  return null;
 }

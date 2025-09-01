@@ -1,3 +1,4 @@
+/*
 import BlogDetails3 from "@/components/blog/BlogDetails3";
 import Newsletter from "@/components/blog/Newsletter";
 import Footer1 from "@/components/footers/Footer1";
@@ -25,4 +26,9 @@ export default async function BlogDetailsPage3(props) {
       </div>
     </>
   );
+}
+*/
+
+export default async function BlogDetailsPage3(props) {
+  return null;
 }

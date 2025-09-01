@@ -1,3 +1,4 @@
+/*
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
@@ -10,18 +11,9 @@ export const metadata = {
   description:
     "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
+*/
+
+// This page is commented out as we're focusing only on the Home-11 page
 export default function Blog2ColsPage() {
-  return (
-    <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
-        <div id="wrapper" className="wrap">
-          <BreadCumb />
-          <Blogs7 />
-          <Newsletter />
-        </div>
-        <Footer2 />
-      </div>
-    </>
-  );
+  return null;
 }

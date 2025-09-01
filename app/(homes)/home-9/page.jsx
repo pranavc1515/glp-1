@@ -1,3 +1,4 @@
+/*
 import Footer8 from "@/components/footers/Footer8";
 import Header8 from "@/components/headers/Header8";
 import Brands from "@/components/homes/home-9/Brands";
@@ -37,4 +38,10 @@ export default function page() {
       </div>
     </>
   );
+}
+*/
+
+// This page is commented out as Home-11 is now the main home page
+export default function page() {
+  return null;
 }

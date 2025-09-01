@@ -1,3 +1,4 @@
+/*
 import Header2 from "@/components/headers/Header2";
 import Pricing from "@/components/common/Pricing";
 import Brands2 from "@/components/homes/home-3/Brands";
@@ -56,4 +57,10 @@ export default function HomePage3() {
       </div>
     </>
   );
+}
+*/
+
+// This page is commented out as Home-11 is now the main home page
+export default function HomePage3() {
+  return null;
 }

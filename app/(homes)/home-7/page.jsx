@@ -1,3 +1,4 @@
+/*
 import Footer6 from "@/components/footers/Footer6";
 import Header6 from "@/components/headers/Header6";
 import Topbar from "@/components/headers/Topbar";
@@ -40,4 +41,10 @@ export default function page() {
       </div>
     </>
   );
+}
+*/
+
+// This page is commented out as Home-11 is now the main home page
+export default function page() {
+  return null;
 }
