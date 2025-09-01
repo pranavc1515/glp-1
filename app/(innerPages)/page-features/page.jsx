@@ -1,3 +1,4 @@
+/*
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
@@ -51,4 +52,9 @@ export default function FeaturesPage() {
       </div>
     </>
   );
+}
+*/
+
+export default function FeaturesPage() {
+  return null;
 }

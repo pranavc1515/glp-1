@@ -1,3 +1,4 @@
+/*
 import Footer2 from "@/components/footers/Footer2";
 import Header4 from "@/components/headers/Header4";
 import Breadcumb from "@/components/innerpages/Breadcumb";
@@ -26,4 +27,9 @@ export default function TeamPage() {
       </div>
     </>
   );
+}
+*/
+
+export default function TeamPage() {
+  return null;
 }

@@ -1,4 +1,5 @@
 
+/*
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
@@ -51,4 +52,9 @@ export default function IntegrationPage() {
       </div>
     </>
   );
+}
+*/
+
+export default function IntegrationPage() {
+  return null;
 }

@@ -1,4 +1,5 @@
 
+/*
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
@@ -23,4 +24,9 @@ export default function ShopCartPage1() {
       </div>
     </>
   );
+}
+*/
+
+export default function ShopCartPage1() {
+  return null;
 }

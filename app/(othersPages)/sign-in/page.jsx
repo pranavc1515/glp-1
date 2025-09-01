@@ -1,3 +1,4 @@
+/*
 import SignIn from "@/components/otherPages/SignIn";
 export const metadata = {
   title:
@@ -15,4 +16,9 @@ export default function SigninPage1() {
       </div>
     </>
   );
+}
+*/
+
+export default function SigninPage1() {
+  return null;
 }

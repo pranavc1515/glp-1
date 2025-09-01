@@ -1,3 +1,4 @@
+/*
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
@@ -25,4 +26,9 @@ export default async function ShopCategoryPage(props) {
       </div>
     </>
   );
+}
+*/
+
+export default async function ShopCategoryPage(props) {
+  return null;
 }

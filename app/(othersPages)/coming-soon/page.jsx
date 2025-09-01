@@ -1,3 +1,4 @@
+/*
 import CommingSoon from "@/components/otherPages/CommingSoon";
 export const metadata = {
   title:
@@ -15,4 +16,9 @@ export default function CommingSoonPage() {
       </div>
     </>
   );
+}
+*/
+
+export default function CommingSoonPage() {
+  return null;
 }
