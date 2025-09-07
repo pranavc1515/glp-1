@@ -17,15 +17,15 @@ export default function Footer8() {
                     <div className="panel vstack items-center gap-1 max-w-400px lg:max-w-750px mx-auto text-center mb-6 xl:mb-8">
                       <div className="mb-2 lg:mb-3">
                         <a
-                          href="#"
+                          href="/mounjaro-assessment"
                           className="btn btn-md xl:btn-lg btn-primary border border-dark dark:border-white dark:border-opacity-15 px-3 lg:px-5 w-auto rounded-pill"
                         >
-                          <span>Start your free trial</span>
+                          <span>Start Free Assessment</span>
                         </a>
                       </div>
                       <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-row md-flex-column">
                         <div className="hstack justify-center gap-2">
-                          <b>Super</b>
+                          <b>Trusted</b>
                           <div className="rating panel">
                             <div className="hstack justify-center gap-narrow">
                               <i
@@ -53,24 +53,8 @@ export default function Footer8() {
                         </div>
                         <div className="hstack justify-center gap-narrow">
                           <span className="desc rtl:order-first">
-                            5,200+ reviews on
+                            Medical Weight Loss Platform
                           </span>
-                          <div>
-                            <Image
-                              alt="Trustpilot"
-                              className="w-96px dark:d-none"
-                              src="/assets/images/review-logo/05.svg"
-                              width={138}
-                              height={42}
-                            />
-                            <Image
-                              alt="Trustpilot"
-                              className="w-96px d-none dark:d-inline-flex"
-                              src="/assets/images/review-logo/dark-05.svg"
-                              width={138}
-                              height={42}
-                            />
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -93,8 +77,9 @@ export default function Footer8() {
                           />
                         </Link>
                         <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                          HealthFlexi provides safe, medically supervised weight loss 
+                          programs with GLP-1 medications like Mounjaro. Get personalized 
+                          treatment from licensed healthcare providers.
                         </p>
                       </div>
                       <LanguageSelect />

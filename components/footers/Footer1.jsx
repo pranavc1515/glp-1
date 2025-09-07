@@ -25,9 +25,9 @@ export default function Footer1() {
                         />
                       </Link>
                       <p>
-                        This powerfull tool eliminates the need to leave
-                        Salesforce to get things done as I can create a custom
-                        proposal with dynamic pricing tables.
+                        HealthFlexi provides safe, medically supervised weight loss 
+                        programs with GLP-1 medications like Mounjaro. Get personalized 
+                        treatment from licensed healthcare providers.
                       </p>
                     </div>
                     <div className="hstack items-start gap-1">
@@ -74,13 +74,13 @@ export default function Footer1() {
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
-                    <Link href="/privacy-policy">Privacy notice</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-and-conditions">Terms</Link>
+                    <Link href="/terms-and-conditions">Terms of Service</Link>
                   </li>
                   <li>
-                    <a href="#">Cookie settings</a>
+                    <Link href="/page-about">Medical Disclaimer</Link>
                   </li>
                 </ul>
               </div>

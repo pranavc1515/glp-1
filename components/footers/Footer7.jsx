@@ -40,8 +40,9 @@ export default function Footer7() {
                           />
                         </Link>
                         <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                          HealthFlexi provides safe, medically supervised weight loss 
+                          programs with GLP-1 medications like Mounjaro. Get personalized 
+                          treatment from licensed healthcare providers.
                         </p>
                       </div>
                       <LanguageSelect />

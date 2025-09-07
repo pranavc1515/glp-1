@@ -12,10 +12,10 @@ export default function Footer4() {
           <div className="container max-w-xl">
             <div className="uc-footer-inner panel vstack lg:hstack justify-between items-center text-center ltr:lg:text-start rtl:lg:text-end gap-3 sm:gap-4">
               <div className="vstack gap-2">
-                <h2 className="h3 xl:h2 m-0">Sign up now or never!</h2>
+                <h2 className="h3 xl:h2 m-0">Start Your Weight Loss Journey!</h2>
                 <p className="fs-6 xl:fs-4 text-dark dark:text-white text-opacity-70 dark:text-white">
-                  Stay up to date with the latest news, announcements, and
-                  articles.
+                  Get the latest health tips, weight loss insights, and 
+                  treatment updates delivered to your inbox.
                 </p>
               </div>
               <div className="panel w-100 sm:w-350px xl:w-450px">
@@ -61,8 +61,9 @@ export default function Footer4() {
                           />
                         </Link>
                         <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                          HealthFlexi provides safe, medically supervised weight loss 
+                          programs with GLP-1 medications like Mounjaro. Get personalized 
+                          treatment from licensed healthcare providers.
                         </p>
                       </div>
                       <LanguageSelect />

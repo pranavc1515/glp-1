@@ -97,13 +97,13 @@ export default function Footer3() {
               </p>
               <ul className="nav-x gap-2 fw-medium">
                 <li>
-                  <a href="#">Privacy notice</a>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <a href="#">Legal</a>
+                  <Link href="/terms-and-conditions">Terms of Service</Link>
                 </li>
                 <li>
-                  <a href="#">Cookie settings</a>
+                  <Link href="/page-about">Medical Disclaimer</Link>
                 </li>
               </ul>
             </div>

@@ -96,12 +96,6 @@ export default function Solutions() {
                   href="#"
                   className="btn btn-md xl:btn-lg btn-alt-dark border-dark px-3 lg:px-5 fw-bold contrast-shadow-sm hover:contrast-shadow"
                 >
-                  <Image
-                    alt="Google Icon"
-                    src="/assets/images/template/google-icon.svg"
-                    width={20}
-                    height={21}
-                  />
                   <span>Start free trial</span>
                 </a>
               </div>
