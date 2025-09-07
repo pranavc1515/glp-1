@@ -1,11 +1,11 @@
-"use client";
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Header6 from '@/components/headers/Header6';
 import Topbar from '@/components/headers/Topbar';
 import Footer6 from '@/components/footers/Footer6';
 import { posts } from '@/data/blogs';
+import NewsletterForm from '@/components/forms/NewsletterForm';
 
 export const metadata = {
   title: 'Health Insights & Blog | HealthFlexi Medical Weight Loss',
@@ -13,14 +13,6 @@ export const metadata = {
 };
 
 export default function InsightsPage() {
-  const [email, setEmail] = useState('');
-
-  const handleEmailSubmit = (e) => {
-    e.preventDefault();
-    // Handle newsletter subscription here
-    console.log('Newsletter subscription:', email);
-    setEmail('');
-  };
 
   return (
     <>
@@ -280,26 +272,7 @@ export default function InsightsPage() {
                   <p className="fs-6 sm:fs-5 text-primary dark:text-primary-200 text-opacity-80 mb-4">
                     Get the latest articles, research updates, and health tips delivered to your inbox
                   </p>
-                  <div className="panel bg-white dark:bg-gray-800 rounded-2 p-4 lg:p-6 w-100 max-w-400px">
-                    <form onSubmit={handleEmailSubmit}>
-                      <div className="hstack gap-2">
-                        <input 
-                          type="email" 
-                          value={email}
-                          onChange={(e) => setEmail(e.target.value)}
-                          className="form-control" 
-                          placeholder="Enter your email"
-                          required
-                        />
-                        <button type="submit" className="btn btn-primary">
-                          Subscribe
-                        </button>
-                      </div>
-                    </form>
-                    <p className="fs-7 text-dark dark:text-white text-opacity-60 mt-3 mb-0">
-                      No spam, unsubscribe at any time
-                    </p>
-                  </div>
+                  <NewsletterForm />
                 </div>
               </div>
             </div>

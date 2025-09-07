@@ -98,13 +98,14 @@ export default function LeanBodyMassCalculatorPage() {
   }, [weight, height, age, gender, waist, neck, hip, method]);
 
   const getLBMCategory = (lbm) => {
+    if (!results.recommendedLBM) return { category: 'Calculating...', color: 'secondary' };
     const { min, max } = results.recommendedLBM;
     if (lbm < min) return { category: 'Below Average', color: 'warning' };
     if (lbm <= max) return { category: 'Healthy Range', color: 'success' };
     return { category: 'Above Average', color: 'info' };
   };
 
-  const lbmCategory = getLBMCategory(results.leanBodyMass);
+  const lbmCategory = getLBMCategory(results.leanBodyMass || 0);
 
   return (
     <>
