@@ -371,3 +371,67 @@ export const pricingPlans5 = [
     bgColor: "bg-gray-300 bg-opacity-15 text-white",
   },
 ];
+
+// HealthFlexi Medical Weight Loss Plans with Indian Rupee Pricing
+export const plans = [
+  {
+    id: 1,
+    name: "Basic Plan",
+    price: "₹15,999",
+    period: "month",
+    description: "Essential weight loss support with basic monitoring",
+    isPopular: false,
+    features: [
+      "Monthly medical consultation",
+      "Basic health monitoring",
+      "Nutrition guidance",
+      "Progress tracking",
+      "Email support"
+    ],
+    cta: {
+      text: "Get Started",
+      href: "/mounjaro-assessment"
+    }
+  },
+  {
+    id: 2,
+    name: "Standard Plan",
+    price: "₹24,999",
+    period: "month",
+    description: "Comprehensive weight loss program with GLP-1 medication",
+    isPopular: true,
+    features: [
+      "Weekly medical consultations",
+      "GLP-1 medication included",
+      "Blood tests and monitoring",
+      "Side effect management",
+      "Lifestyle coaching",
+      "Priority support"
+    ],
+    cta: {
+      text: "Check Eligibility",
+      href: "/mounjaro-assessment"
+    }
+  },
+  {
+    id: 3,
+    name: "Premium Plan",
+    price: "₹34,999",
+    period: "month",
+    description: "Complete medical weight loss with premium Mounjaro treatment",
+    isPopular: false,
+    features: [
+      "Daily medical support",
+      "Premium Mounjaro medication",
+      "Comprehensive lab testing",
+      "Dedicated care coordinator",
+      "At-home health monitoring",
+      "24/7 priority support",
+      "Long-term maintenance planning"
+    ],
+    cta: {
+      text: "Contact Us",
+      href: "/page-contact"
+    }
+  }
+];

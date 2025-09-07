@@ -10,9 +10,12 @@ export const metadata = {
   description: "View detailed information about Mounjaro (tirzepatide) injections for weight loss and diabetes management.",
 };
 
-export default function ProductDetailPage({ params }) {
+export default async function ProductDetailPage({ params }) {
+  // Await params before accessing its properties (Next.js 15 requirement)
+  const resolvedParams = await params;
+  
   // Find the product by ID
-  const productId = parseInt(params.id);
+  const productId = parseInt(resolvedParams.id);
   const product = products.find(p => p.id === productId);
   
   // If product not found, return 404
