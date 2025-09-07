@@ -1,6 +1,9 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Header6 from '@/components/headers/Header6';
+import Topbar from '@/components/headers/Topbar';
+import Footer6 from '@/components/footers/Footer6';
 
 export default function BodyFatPercentagePage() {
   const [method, setMethod] = useState('navy'); // navy, bmi, or deurenberg
@@ -81,7 +84,12 @@ export default function BodyFatPercentagePage() {
   };
 
   return (
-    <div className="page-wrapper">
+    <>
+      <div className="theme-3">
+        <div className="bp-xs page-wrapper home-7 bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-white text-gray-900 dark:bg-black dark:text-gray-200 overflow-x-hidden disable-cursor">
+          <Topbar />
+          <Header6 />
+          <div id="wrapper" className="wrap">
       {/* Header */}
       <div className="section panel py-6 xl:py-9 bg-secondary dark:bg-gray-900">
         <div className="container">
@@ -366,6 +374,10 @@ export default function BodyFatPercentagePage() {
           </div>
         </div>
       </div>
-    </div>
+          </div>
+          <Footer6 />
+        </div>
+      </div>
+    </>
   );
 }

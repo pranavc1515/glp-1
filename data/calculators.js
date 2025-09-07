@@ -58,5 +58,105 @@ export const calculatorFeatures = [
         link: { text: "Calculate Body Fat", href: "/calculators/body-fat" },
         category: "Body Composition",
         importance: "medium"
+    },
+    {
+        id: 7,
+        imgSrc: "/assets/images/template/feature-03.svg",
+        imgAlt: "TDEE Calculator - Total Daily Energy Expenditure",
+        title: "TDEE Calculator",
+        description: "Calculate your Total Daily Energy Expenditure including all activities. Essential for precise calorie planning and weight management.",
+        link: { text: "Calculate TDEE", href: "/calculators/tdee" },
+        category: "Metabolism",
+        importance: "high"
+    },
+    {
+        id: 8,
+        imgSrc: "/assets/images/template/feature-04.svg",
+        imgAlt: "Ideal Weight Calculator",
+        title: "Ideal Weight Calculator",
+        description: "Determine your ideal weight range using multiple medical formulas. Set realistic targets for your GLP-1 weight loss journey.",
+        link: { text: "Find Ideal Weight", href: "/calculators/ideal-weight" },
+        category: "Planning",
+        importance: "high"
+    },
+    {
+        id: 9,
+        imgSrc: "/assets/images/template/feature-01.svg",
+        imgAlt: "Calorie Deficit Calculator",
+        title: "Calorie Deficit Calculator",
+        description: "Calculate the exact calorie deficit needed to achieve your weight loss goals safely and effectively with medical supervision.",
+        link: { text: "Calculate Deficit", href: "/calculators/calorie-deficit" },
+        category: "Weight Loss",
+        importance: "high"
+    },
+    {
+        id: 10,
+        imgSrc: "/assets/images/template/feature-02.svg",
+        imgAlt: "Lean Body Mass Calculator",
+        title: "Lean Body Mass Calculator",
+        description: "Calculate your lean body mass to understand muscle preservation during weight loss. Important for GLP-1 treatment monitoring.",
+        link: { text: "Calculate LBM", href: "/calculators/lean-body-mass" },
+        category: "Body Composition",
+        importance: "medium"
+    },
+    {
+        id: 11,
+        imgSrc: "/assets/images/template/feature-03.svg",
+        imgAlt: "Water Intake Calculator",
+        title: "Water Intake Calculator",
+        description: "Calculate your optimal daily water intake based on weight, activity, and climate. Proper hydration supports weight loss and GLP-1 treatment.",
+        link: { text: "Calculate Water Needs", href: "/calculators/water-intake" },
+        category: "Nutrition",
+        importance: "medium"
+    },
+    {
+        id: 12,
+        imgSrc: "/assets/images/template/feature-04.svg",
+        imgAlt: "Protein Intake Calculator",
+        title: "Protein Intake Calculator",
+        description: "Determine optimal daily protein intake to preserve muscle mass during weight loss. Essential for successful GLP-1 treatment outcomes.",
+        link: { text: "Calculate Protein", href: "/calculators/protein-intake" },
+        category: "Nutrition",
+        importance: "medium"
+    },
+    {
+        id: 13,
+        imgSrc: "/assets/images/template/feature-01.svg",
+        imgAlt: "Heart Rate Zone Calculator",
+        title: "Heart Rate Zone Calculator",
+        description: "Calculate your optimal heart rate zones for fat burning and cardiovascular exercise. Maximize your weight loss workout efficiency.",
+        link: { text: "Calculate Heart Zones", href: "/calculators/heart-rate-zones" },
+        category: "Exercise",
+        importance: "medium"
+    },
+    {
+        id: 14,
+        imgSrc: "/assets/images/template/feature-02.svg",
+        imgAlt: "Exercise Calorie Burn Calculator",
+        title: "Exercise Calorie Burn",
+        description: "Calculate calories burned during various exercises and activities. Plan your workouts to complement your GLP-1 weight loss program.",
+        link: { text: "Calculate Calories Burned", href: "/calculators/exercise-calories" },
+        category: "Exercise",
+        importance: "medium"
+    },
+    {
+        id: 15,
+        imgSrc: "/assets/images/template/feature-03.svg",
+        imgAlt: "Diabetes Risk Calculator",
+        title: "Diabetes Risk Calculator",
+        description: "Assess your risk of developing type 2 diabetes based on lifestyle and health factors. Important for GLP-1 treatment candidates.",
+        link: { text: "Check Diabetes Risk", href: "/calculators/diabetes-risk" },
+        category: "Health Risk",
+        importance: "high"
+    },
+    {
+        id: 16,
+        imgSrc: "/assets/images/template/feature-04.svg",
+        imgAlt: "Metabolic Age Calculator",
+        title: "Metabolic Age Calculator",
+        description: "Calculate your metabolic age compared to your chronological age. Track improvements during your weight loss journey.",
+        link: { text: "Calculate Metabolic Age", href: "/calculators/metabolic-age" },
+        category: "Health Assessment",
+        importance: "medium"
     }
 ];
