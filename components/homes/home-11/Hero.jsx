@@ -153,7 +153,7 @@ export default function Hero() {
                     style={{ transform: "translateY(0px)", opacity: 1 }}
                   >
                     <a
-                      href="#"
+                      href="/mounjaro-consultation"
                       className="btn btn-md xl:btn-lg btn-alt-dark border-dark px-3 lg:px-5 fw-bold contrast-shadow-sm hover:contrast-shadow"
                     >
                       <Image
@@ -162,7 +162,7 @@ export default function Hero() {
                         width="20"
                         height="21"
                       />
-                      <span>Book Free Consultation</span>
+                      <span>Check Eligibility</span>
                     </a>
                   </div>
 

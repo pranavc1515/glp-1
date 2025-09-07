@@ -18,10 +18,10 @@ export default function Cta() {
                 Start your 14-days free trial. Cancel anytime.
               </p>
               <a
-                href="https://themeforest.net/user/elite-themes24"
+                href="/mounjaro-consultation"
                 className="btn btn-md btn-primary min-w-150px px-3 mt-4"
               >
-                <span>Get started</span>
+                <span>Check Eligibility</span>
                 <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
               </a>
             </div>

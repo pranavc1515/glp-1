@@ -90,9 +90,10 @@ export default function Contact2() {
                 />
                 <button
                   className="btn btn-primary btn-md text-white mt-2"
-                  type="submit"
+                  type="button"
+                  onClick={() => window.location.href = '/mounjaro-consultation'}
                 >
-                  Schedule Free Consultation
+                  Check Eligibility
                 </button>
                 <p className="text-center">
                   Or contact our medical team directly at

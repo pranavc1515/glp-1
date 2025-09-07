@@ -71,8 +71,11 @@ export default function Pricing2() {
                           </span>
                         </div>
                         <div className="vstack items-center gap-2 p-4 pt-0">
-                          <button className="btn btn-md btn-primary dark:bg-tertiary dark:text-primary fw-bold rounded-pill px-3 w-100">
-                            Get started
+                          <button 
+                            className="btn btn-md btn-primary dark:bg-tertiary dark:text-primary fw-bold rounded-pill px-3 w-100"
+                            onClick={() => window.location.href = '/mounjaro-consultation'}
+                          >
+                            Check Eligibility
                           </button>
                           <p className="fs-7 fw-normal">
                             Billed $108 per year.
@@ -92,8 +95,11 @@ export default function Pricing2() {
                           </span>
                         </div>
                         <div className="vstack items-center gap-2 p-4 pt-0">
-                          <button className="btn btn-md btn-ghost-primary fw-bold border rounded-pill px-3 w-100">
-                            Get started
+                          <button 
+                            className="btn btn-md btn-ghost-primary fw-bold border rounded-pill px-3 w-100"
+                            onClick={() => window.location.href = '/mounjaro-consultation'}
+                          >
+                            Check Eligibility
                           </button>
                           <p className="fs-7 fw-normal">
                             Billed $348 per year.

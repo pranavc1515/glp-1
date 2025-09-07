@@ -74,10 +74,10 @@ export default function BMICalculatorPage() {
             </p>
             <div className="hstack gap-2 justify-center">
               <Link 
-                href="/page-contact" 
+                href="/mounjaro-consultation" 
                 className="btn btn-primary"
               >
-                Book Free Consultation
+                Check Eligibility
               </Link>
               <Link 
                 href="/calculators/bmr" 

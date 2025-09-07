@@ -73,9 +73,9 @@ export default function Pricing() {
                           />
                           <Link
                             className={`btn btn-md lg:btn-lg ${tier.buttonClass} w-100 mt-2`}
-                            href={`/sign-up`}
+                            href="/mounjaro-consultation"
                           >
-                            <span>Get started</span>
+                            <span>Check Eligibility</span>
                           </Link>
                           <p className="details">{tier.details}</p>
                         </header>

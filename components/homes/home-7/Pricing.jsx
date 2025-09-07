@@ -159,8 +159,11 @@ export default function Pricing() {
                               </div>
                               <div className="panel p-2 lg:px-3">Treatment options</div>
                               <div className="vstack items-center gap-2 p-4 border-top">
-                                <button className="btn btn-md btn-ghost-primary fw-bold border rounded-pill px-3 w-100">
-                                  Book consultation
+                                <button 
+                                  className="btn btn-md btn-ghost-primary fw-bold border rounded-pill px-3 w-100"
+                                  onClick={() => window.location.href = '/mounjaro-consultation'}
+                                >
+                                  Check Eligibility
                                 </button>
                                 <p className="fs-7 fw-normal">No obligation!</p>
                               </div>

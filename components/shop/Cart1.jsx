@@ -39,10 +39,19 @@ export default function Cart1() {
               onSubmit={(e) => e.preventDefault()}
               className="panel max-h-sm overflow-auto border border-gray-50 dark:border-gray-700"
             >
-              {!cartProducts.length ? (
-                <p className="alert alert-warning" hidden="">
-                  Your cart empty!
-                </p>
+                  {!cartProducts.length ? (
+                <div className="text-center p-4">
+                  <div className="vstack gap-3">
+                    <i className="icon-3 unicon-shopping-cart text-gray-400"></i>
+                    <div>
+                      <h5 className="h6 mb-2">Your cart is empty</h5>
+                      <p className="text-gray-500 mb-3">Ready to start your weight loss journey?</p>
+                      <a href="/mounjaro-assessment" className="btn btn-primary text-white">
+                        Start Mounjaro Assessment
+                      </a>
+                    </div>
+                  </div>
+                </div>
               ) : (
                 <table className="table align-middle overflow-auto m-0 fs-6 dark:text-white dark:border-gray-700">
                   <thead className="bg-gray-800 text-white sticky-top ft-tertiary bg-gray-50 dark:bg-gray-800 z-1">
@@ -96,7 +105,7 @@ export default function Cart1() {
                           </h5>
                         </td>
                         <td>
-                          <span className="price">${elm.price.toFixed(2)}</span>
+                          <span className="price">₹{elm.price.toFixed(2)}</span>
                         </td>
                         <td>
                           <input
@@ -116,7 +125,7 @@ export default function Cart1() {
                         </td>
                         <td>
                           <span className="subtotal">
-                            ${(elm.price * elm.quantity).toFixed(2)}
+                            ₹{(elm.price * elm.quantity).toFixed(2)}
                           </span>
                         </td>
                       </tr>
@@ -171,7 +180,7 @@ export default function Cart1() {
                             <th className="ft-tertiary bg-gray-800 text-white">
                               Subtotal
                             </th>
-                            <td>${totalPrice.toFixed(2)}</td>
+                            <td>₹{totalPrice.toFixed(2)}</td>
                           </tr>
                           <tr>
                             <th className="ft-tertiary bg-gray-800 text-white">
@@ -179,7 +188,7 @@ export default function Cart1() {
                             </th>
                             <td>
                               <div className="nav-y">
-                                <span>Flat rate: $23.00</span>
+                                <span>Flat rate: ₹23.00</span>
                                 <span>Shipping to Morocco</span>
                                 <a className="text-primary" href="#">
                                   Edit address
@@ -193,7 +202,7 @@ export default function Cart1() {
                             </th>
                             <td>
                               <span className="total fw-bold fs-6 lg:fs-5">
-                                ${(totalPrice + 23).toFixed(2)}
+                                ₹{(totalPrice + 23).toFixed(2)}
                               </span>
                             </td>
                           </tr>
@@ -264,11 +273,11 @@ export default function Cart1() {
                                 <div className="hstack justify-center gap-narrow fs-7">
                                   {elm.oldPrice && (
                                     <span className="price-old text-line-through opacity-40">
-                                      ${elm.oldPrice.toFixed(2)}
+                                      ₹{elm.oldPrice.toFixed(2)}
                                     </span>
                                   )}
                                   <span className="price">
-                                    ${elm.price.toFixed(2)}
+                                    ₹{elm.price.toFixed(2)}
                                   </span>
                                 </div>
                                 <a

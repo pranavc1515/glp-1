@@ -83,10 +83,10 @@ export default function Hero() {
                     transform how you build websites.
                   </p>
                   <Link
-                    href={`/page-pricing`}
+                    href="/mounjaro-consultation"
                     className="btn btn-md lg:btn-lg btn-primary min-w-150px mt-2"
                   >
-                    <span>Get started</span>
+                    <span>Check Eligibility</span>
                     <i className="icon icon-narrow unicon-arrow-right fw-bold ltr:ms-narrow rtl:rotate-180 rtl:me-narrow" />
                   </Link>
                   <p className="fs-7 text-black dark:text-white">

@@ -5,7 +5,7 @@ export const pricingTiers = [
     description: "Comprehensive weight loss program without medication.",
     price: "$199 USD",
     priceInfo: "Per month, includes all services",
-    buttonLabel: "Book consultation",
+    buttonLabel: "Check Eligibility",
 
     features: [
       "Metabolic assessment and testing",
@@ -70,7 +70,7 @@ export const tiers = [
       "Side effect management",
     ],
     icon: "unicon-course",
-    buttonText: "Book consultation",
+    buttonText: "Check Eligibility",
 
     highlight: true,
   },

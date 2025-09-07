@@ -279,10 +279,10 @@ export default function CalorieNutrientPage() {
             </p>
             <div className="hstack gap-2 justify-center">
               <Link 
-                href="/page-contact" 
+                href="/mounjaro-consultation" 
                 className="btn btn-primary"
               >
-                Book Nutrition Consultation
+                Check Eligibility
               </Link>
               <Link 
                 href="/calculators/bmi" 

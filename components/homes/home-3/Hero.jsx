@@ -170,10 +170,10 @@ export default function Hero() {
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column fdr">
                 <Link
-                  href={`/page-pricing`}
+                  href="/mounjaro-consultation"
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Book Free Consultation
+                  Check Eligibility
                 </Link>
                 <a
                   onClick={openContactModal}

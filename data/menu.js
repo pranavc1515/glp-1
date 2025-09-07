@@ -171,6 +171,24 @@ export const menuItems = [
   },
   {
     id: 8,
+    label: "Medical",
+    subItems: [
+      {
+        href: "/mounjaro-assessment",
+        label: "Mounjaro Eligibility Assessment",
+      },
+      {
+        href: "/mounjaro-consultation",
+        label: "Medical Consultation",
+      },
+      {
+        href: "/shop",
+        label: "Browse Products",
+      },
+    ],
+  },
+  {
+    id: 9,
     label: "Shop",
     subItems: [
       {

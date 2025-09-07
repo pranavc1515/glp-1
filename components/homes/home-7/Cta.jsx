@@ -39,10 +39,10 @@ export default function Cta() {
           </p>
           <div className="vstack md:hstack justify-center gap-2 mt-3">
             <a
-              href="#"
+              href="/mounjaro-consultation"
               className="btn btn-md xl:btn-lg btn-tertiary text-primary px-3 lg:px-5 fw-bold hover:contrast-shadow"
             >
-              Book your free consultation
+              Check Eligibility
             </a>
           </div>
           <span className="fs-7 mt-1">Expert medical guidance included!</span>

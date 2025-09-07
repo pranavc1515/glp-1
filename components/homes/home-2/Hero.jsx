@@ -184,10 +184,10 @@ export default function Hero() {
                     </div>
                     <div className="col-12 sm:col-auto">
                       <Link
-                        href={`/page-pricing`}
+                        href="/mounjaro-consultation"
                         className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
                       >
-                        Book Consultation
+                        Check Eligibility
                       </Link>
                     </div>
                   </form>

@@ -221,10 +221,10 @@ export default function Features() {
                                     Access instant support via chat for any questions about side effects, nutrition, or progress. Get ongoing coaching, habit-building guidance, and a structured plan for maintaining your results even after medication ends. We're always just a message away.
                                   </p>
                                   <Link
-                                    href="/page-features"
+                                    href="/mounjaro-consultation"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
-                                    <span>Get started today</span>
+                                    <span>Check Eligibility</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
                                   </Link>
                                 </div>

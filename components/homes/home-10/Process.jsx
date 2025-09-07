@@ -59,17 +59,17 @@ export default function Process() {
                   data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
                 >
                   <a
-                    href="#"
+                    href="/mounjaro-consultation"
                     className="btn btn-md btn-primary dark:bg-tertiary dark:text-primary px-3 w-auto border-0"
                   >
                     <i className="icon-narrow unicon-chat-launch fw-bold" />
-                    <span>Get Started Today</span>
+                    <span>Check Eligibility</span>
                   </a>
                   <a
-                    href="#"
+                    href="/mounjaro-consultation"
                     className="btn btn-md btn-link fw-bold text-none text-primary dark:text-white"
                   >
-                    Free Consultation
+                    Check Eligibility
                   </a>
                 </div>
                 <div

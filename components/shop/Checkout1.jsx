@@ -193,7 +193,7 @@ export default function Checkout1() {
                           <td>
                             <span className="subtotal">
                               {" "}
-                              ${elm.price.toFixed(2)}
+                              ₹{elm.price.toFixed(2)}
                             </span>
                           </td>
                         </tr>
@@ -205,7 +205,7 @@ export default function Checkout1() {
                         </td>
                         <td>
                           <span className="checkout-subtotal">
-                            ${totalPrice.toFixed(2)}
+                            ₹{totalPrice.toFixed(2)}
                           </span>
                         </td>
                       </tr>
@@ -215,7 +215,7 @@ export default function Checkout1() {
                         </td>
                         <td>
                           <span className="checkout-shipping">
-                            Flat rate: $23.00
+                            Flat rate: ₹23.00
                           </span>
                         </td>
                       </tr>
@@ -225,7 +225,7 @@ export default function Checkout1() {
                         </td>
                         <td>
                           <span className="checkout-total fw-bold">
-                            ${(totalPrice + 23).toFixed(2)}
+                            ₹{(totalPrice + 23).toFixed(2)}
                           </span>
                         </td>
                       </tr>

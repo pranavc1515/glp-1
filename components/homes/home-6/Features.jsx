@@ -137,10 +137,10 @@ export default function Features() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="/mounjaro-consultation"
                       className="btn btn-sm btn-secondary text-primary px-2 mt-2"
                     >
-                      <span>Book consultation</span>
+                      <span>Check Eligibility</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
                   </div>

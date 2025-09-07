@@ -59,10 +59,10 @@ export default function Features2() {
             >
               <div className="mb-2 lg:mb-3">
                 <a
-                  href="#contact"
+                  href="/mounjaro-consultation"
                   className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                 >
-                  <span>Get Started Today</span>
+                  <span>Check Eligibility</span>
                 </a>
               </div>
               <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">
