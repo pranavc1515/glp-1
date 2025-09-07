@@ -17,6 +17,7 @@ export default function ReviewForm() {
           <input
             type="text"
             id="reviewer_name"
+            placeholder="Your name"
             className="form-control form-control-sm dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800"
           />
         </div>
@@ -30,6 +31,7 @@ export default function ReviewForm() {
           <input
             type="email"
             id="reviewer_email"
+            placeholder="Your email address"
             className="form-control form-control-sm dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800"
             required
           />
@@ -42,22 +44,22 @@ export default function ReviewForm() {
         </label>
         <ul
           className="nav-x gap-0 text-gray-100 dark:text-gray-700"
-          title="Average 1 out of 5"
+          title="Average 5 out of 5"
         >
           <li>
             <i className="icon fs-5 unicon-star-filled text-yellow" />
           </li>
           <li>
-            <i className="icon fs-5 unicon-star-filled" />
+            <i className="icon fs-5 unicon-star-filled text-yellow" />
           </li>
           <li>
-            <i className="icon fs-5 unicon-star-filled" />
+            <i className="icon fs-5 unicon-star-filled text-yellow" />
           </li>
           <li>
-            <i className="icon fs-5 unicon-star-filled" />
+            <i className="icon fs-5 unicon-star-filled text-yellow" />
           </li>
           <li>
-            <i className="icon fs-5 unicon-star-filled" />
+            <i className="icon fs-5 unicon-star-filled text-yellow" />
           </li>
         </ul>
       </div>
@@ -66,9 +68,10 @@ export default function ReviewForm() {
           Review title
           <sup className="text-danger">*</sup>
         </label>
-        <input
+          <input
           type="text"
           id="reviewer_title"
+          placeholder="Give your review a title"
           className="form-control form-control-sm dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800"
         />
       </div>
@@ -83,6 +86,7 @@ export default function ReviewForm() {
           id="reviewer_message"
           className="form-control form-control-sm dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800"
           rows={5}
+          placeholder="Share your experience with Mounjaro Injection"
           required
           defaultValue={""}
         />

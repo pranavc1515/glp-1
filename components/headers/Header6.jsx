@@ -134,6 +134,9 @@ export default function Header6({ staticPosition = false }) {
                     <li>
                       <Link href={`/page-pricing-2`}>Pricing</Link>
                     </li>
+                    <li>
+                      <Link href={`/shop`}>Shop</Link>
+                    </li>
                   </ul>
                 </div>
                 <div className="uc-navbar-right">

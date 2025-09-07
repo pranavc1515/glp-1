@@ -164,6 +164,9 @@ export default function MobileMenu() {
             <li>
               <Link href={`/page-pricing-2`}>Pricing</Link>
             </li>
+            <li>
+              <Link href={`/shop`}>Shop</Link>
+            </li>
             
             <li className="hr opacity-10 my-1" />
             <li>

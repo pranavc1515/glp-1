@@ -77,14 +77,16 @@ export default function ShopDetails1({ product }) {
                   </div>
                 </div>
                 <p className="product-desc fs-6 xl:fs-5 my-2">
-                  Consetetur sadipscing elitr, syosma vero eos et accusam et
-                  justo takimata sit amet sed diam nonumy eirmod tempor invidunt
-                  ut labore et dolore magna aliquyam erat, sed diam voluptua.{" "}
-                  <br />
-                  <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut laliqua.
+                  {product.description || "Mounjaro (tirzepatide) injection is used along with diet and exercise to improve blood sugar control in adults with type 2 diabetes. It also helps with significant weight loss when combined with proper diet and exercise."}
                 </p>
+                <div className="mt-2">
+                  <ul className="list-unstyled">
+                    <li><strong>Manufacturer:</strong> {product.details?.manufacturer || "ELI LILLY AND COMPANY"}</li>
+                    <li><strong>Country of Origin:</strong> {product.details?.countryOfOrigin || "United States of America"}</li>
+                    <li><strong>Salt Composition:</strong> {product.details?.saltComposition || "TIRZEPATIDE"}</li>
+                    <li><strong>Packaging:</strong> {product.details?.packaging || "1 Vial(s) Of 0.5ml"}</li>
+                  </ul>
+                </div>
                 <div className="product-actions hstack gap-1 xl:mt-2">
                   {isAddedToCartProducts(product.id) ? (
                     <input
@@ -138,21 +140,21 @@ export default function ShopDetails1({ product }) {
                     <span className="text-uppercase opacity-60 me-narrow">
                       SKU:
                     </span>
-                    <span>HVRYXK 1</span>
+                    <span>{product.details?.sku || `MNJ-${product.id}`}</span>
                   </li>
                   <li className="hstack gap-narrow">
                     <span className="text-uppercase opacity-60 me-narrow">
                       Categories:
                     </span>
-                    <Link className="text-primary" href={`/shop-category/Toys`}>
-                      Toys
+                    <Link className="text-primary" href={`/shop-category/Medications`}>
+                      Medications
                     </Link>
                     ,
                     <Link
                       className="text-primary"
-                      href={`/shop-category/Games`}
+                      href={`/shop-category/Weight-Loss`}
                     >
-                      Games
+                      Weight Loss
                     </Link>
                   </li>
                   <li className="hstack gap-narrow">
@@ -161,16 +163,23 @@ export default function ShopDetails1({ product }) {
                     </span>
                     <Link
                       className="text-primary"
-                      href={`/shop-category/Heads Toys`}
+                      href={`/shop-category/Diabetes`}
                     >
-                      Heads toys
+                      Diabetes
                     </Link>
                     ,
                     <Link
                       className="text-primary"
-                      href={`/shop-category/Child`}
+                      href={`/shop-category/Injection`}
                     >
-                      Child
+                      Injection
+                    </Link>
+                    ,
+                    <Link
+                      className="text-primary"
+                      href={`/shop-category/GLP-1`}
+                    >
+                      GLP-1
                     </Link>
                   </li>
                 </ul>
@@ -194,30 +203,34 @@ export default function ShopDetails1({ product }) {
                   id="product-details"
                   className="product-details panel py-2 lg:py-4"
                 >
+                    <h4 className="mb-3">Introduction to Mounjaro Injection</h4>
                   <p>
-                    Consetetur sadipscing elitr, syosma vero eos et accusam et
-                    justo takimata sit amet sed diam nonumy eirmod tempor
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam
-                    voluptua.
+                    Mounjaro Injection, an innovative medication, contains Tirzepatide as its active ingredient. It belongs to the pharmacological class of GLP-1 and GIP receptor agonists, a first-in-class dual-incretin therapy. This injection is primarily used to manage blood sugar levels in adults with type 2 diabetes mellitus who are unable to achieve adequate glycemic control through oral antidiabetic medications, diet, and exercise.
                   </p>
                   <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                    By mimicking the action of two natural incretin hormones—GLP-1 and GIP—Mounjaro enhances glucose-dependent insulin secretion, suppresses glucagon release, slows gastric emptying, and reduces appetite. These mechanisms help lower post-meal blood sugar levels and improve overall metabolic control.
                   </p>
-                  <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquid iusto dolores laudantium commodi ut ullam id,
-                    numquam repellat quo maiores excepturi cum atque
-                    consequuntur alias sunt, dignissimos architecto odio unde!
-                  </p>
-                  <p>
-                    Accusamus odio soluta nostrum nemo esse explicabo ab eos sed
-                    perspiciatis possimus.
-                  </p>
+                  
+                  <h4 className="mb-3 mt-4">Uses of Mounjaro Injection</h4>
+                  <ul>
+                    <li>Used along with diet and exercise to improve glycemic control in type 2 diabetes.</li>
+                    <li>Sometimes used off-label for weight management under medical supervision.</li>
+                  </ul>
+                  
+                  <h4 className="mb-3 mt-4">Therapeutic Effects</h4>
+                  <ul>
+                    <li>Stimulates insulin secretion in response to food intake.</li>
+                    <li>Suppresses glucagon production, reducing liver glucose output.</li>
+                    <li>Slows down digestion to promote fullness and control calorie intake.</li>
+                    <li>Supports overall blood sugar regulation and may lead to gradual weight loss.</li>
+                  </ul>
+                  
+                  <h4 className="mb-3 mt-4">Storage Information</h4>
+                  <ul>
+                    <li>Store in a refrigerator (2°C–8°C).</li>
+                    <li>Do not freeze. Keep away from direct light.</li>
+                    <li>If a dose is missed, take it within 4 days. Otherwise, skip and wait for the next scheduled dose.</li>
+                  </ul>
                 </div>
               </div>
             )}
@@ -230,9 +243,9 @@ export default function ShopDetails1({ product }) {
                   <div className="row g-9 sep" data-uc-grid="">
                     <div className="col-12 lg:col-6">
                       <div className="panel vstack gap-1 lg:gap-2">
-                        <h4 className="h5 lg:h4 m-0">Reviews (5)</h4>
+                        <h4 className="h5 lg:h4 m-0">Reviews (6)</h4>
                         <p className="text-dark dark:text-white text-opacity-70">
-                          Be the first to review “Disney Toys”
+                          Customer reviews for Mounjaro Injection
                         </p>
                         <div className="reviews-wrap panel vstack gap-4 mt-6">
                           <div className="reviews-lisiting panel row child-cols-12 sep-x gy-9">

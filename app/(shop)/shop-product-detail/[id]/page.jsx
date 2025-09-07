@@ -1,38 +1,35 @@
-/*
 import Header2 from "@/components/headers/Header2";
-
 import Footer2 from "@/components/footers/Footer2";
-import Breadcumb2 from "@/components/shop/Breadcumb2";
+import Breadcumb from "@/components/shop/Breadcumb";
 import ShopDetails1 from "@/components/shop/ShopDetails1";
 import { products } from "@/data/products";
+import { notFound } from "next/navigation";
+
 export const metadata = {
-  title:
-    "Shop Details 1 || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Mounjaro Injection | HealthFlexi - Medical Weight Loss Platform",
+  description: "View detailed information about Mounjaro (tirzepatide) injections for weight loss and diabetes management.",
 };
-export default async function ShopDetailsPage1(props) {
-  const params = await props.params;
-  const id = params.id;
-  const product = products.filter((elm) => elm.id == id)[0] || products[0];
+
+export default function ProductDetailPage({ params }) {
+  // Find the product by ID
+  const productId = parseInt(params.id);
+  const product = products.find(p => p.id === productId);
+  
+  // If product not found, return 404
+  if (!product) {
+    notFound();
+  }
+
   return (
     <>
-      <div
-        style={{ overflowX: "clip" }}
-        className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready"
-      >
+      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header2 />
         <div id="wrapper" className="wrap">
-          <Breadcumb2 product={product} />
+          <Breadcumb />
           <ShopDetails1 product={product} />
         </div>
         <Footer2 />
       </div>
     </>
   );
-}
-*/
-
-export default async function ShopDetailsPage1(props) {
-  return null;
 }

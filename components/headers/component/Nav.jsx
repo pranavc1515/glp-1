@@ -24,6 +24,9 @@ export default function Nav() {
       <li>
         <Link href={`/page-contact`}>Contact</Link>
       </li>
+      <li>
+        <Link href={`/shop`}>Shop</Link>
+      </li>
       <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">
           More{" "}

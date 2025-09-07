@@ -1,16 +1,14 @@
 
-/*
 import Header2 from "@/components/headers/Header2";
-
 import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/shop/Breadcumb";
 import Cart1 from "@/components/shop/Cart1";
+
 export const metadata = {
-  title:
-    "Shop Cart || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Shopping Cart | HealthFlexi - Medical Weight Loss Platform",
+  description: "View and manage your selected medical weight loss products.",
 };
+
 export default function ShopCartPage1() {
   return (
     <>
@@ -24,9 +22,4 @@ export default function ShopCartPage1() {
       </div>
     </>
   );
-}
-*/
-
-export default function ShopCartPage1() {
-  return null;
 }

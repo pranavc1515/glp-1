@@ -1,15 +1,13 @@
-/*
 import Header2 from "@/components/headers/Header2";
-
 import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/shop/Breadcumb";
 import Checkout1 from "@/components/shop/Checkout1";
+
 export const metadata = {
-  title:
-    "Shop Checkout || HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "HealthFlexi - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Checkout | HealthFlexi - Medical Weight Loss Platform",
+  description: "Complete your purchase of medical weight loss products securely.",
 };
+
 export default function ShopcheckoutPage1() {
   return (
     <>
@@ -23,9 +21,4 @@ export default function ShopcheckoutPage1() {
       </div>
     </>
   );
-}
-*/
-
-export default function ShopcheckoutPage1() {
-  return null;
 }
