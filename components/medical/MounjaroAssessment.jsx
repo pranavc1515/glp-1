@@ -188,6 +188,45 @@ export default function MounjaroAssessment() {
               min={validation?.min}
               max={validation?.max}
               required={question.required}
+              placeholder={question.placeholder}
+            />
+          </div>
+        );
+        
+      case "text":
+        return (
+          <div className="form-group">
+            <label className="form-label ft-tertiary fs-6 fw-bold" htmlFor={id}>
+              {questionText}
+              {question.required && <sup className="text-danger ms-1">*</sup>}
+            </label>
+            <input
+              type="text"
+              id={id}
+              className="form-control dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800"
+              value={value}
+              onChange={(e) => handleAnswerChange(id, e.target.value)}
+              required={question.required}
+              placeholder={question.placeholder}
+            />
+          </div>
+        );
+        
+      case "tel":
+        return (
+          <div className="form-group">
+            <label className="form-label ft-tertiary fs-6 fw-bold" htmlFor={id}>
+              {questionText}
+              {question.required && <sup className="text-danger ms-1">*</sup>}
+            </label>
+            <input
+              type="tel"
+              id={id}
+              className="form-control dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800"
+              value={value}
+              onChange={(e) => handleAnswerChange(id, e.target.value)}
+              required={question.required}
+              placeholder={question.placeholder}
             />
           </div>
         );
@@ -315,8 +354,8 @@ export default function MounjaroAssessment() {
     <div className="section py-6 lg:py-8 xl:py-12">
       <div className="container max-w-2xl">
         <div className="panel vstack gap-6 lg:gap-8">
-          <header className="text-center">
-            <h1 className="h2 lg:h1 m-0">Mounjaro Eligibility Assessment</h1>
+          <header className="text-center mt-4 lg:mt-6">
+            <h1 className="h2 lg:h1 m-0">Eligibility Assessment</h1>
             <p className="fs-6 text-dark dark:text-white text-opacity-70 mt-2">
               Complete this medical questionnaire to determine if Mounjaro may be right for you
             </p>
